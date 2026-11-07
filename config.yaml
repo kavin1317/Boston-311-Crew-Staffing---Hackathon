@@ -1,0 +1,45 @@
+# Every planning number from the topic brief. Read this file everywhere; never hard-code.
+# Request data is REAL; capacities, costs and starting crews are the brief's ASSUMED values.
+
+plan_year: 2025
+working_days_per_month: 21
+
+departments:
+  PWDx:   {name: Public Works,            capacity_per_crew_per_day: 12, annual_cost_per_crew: 130000, crews_jan_2025: 50}
+  BTDT:   {name: Transportation,          capacity_per_crew_per_day: 15, annual_cost_per_crew: 110000, crews_jan_2025: 18}
+  PARK:   {name: Parks and Recreation,    capacity_per_crew_per_day: 6,  annual_cost_per_crew: 120000, crews_jan_2025: 10}
+  ISD:    {name: Inspectional Services,   capacity_per_crew_per_day: 4,  annual_cost_per_crew: 140000, crews_jan_2025: 16}
+
+crew_lifecycle:
+  hire_lead_time_months: 1          # hired in month m, works from m+1
+  release_notice_months: 1          # released in month m, gone from m+1
+  release_cost_share_of_annual: 0.25
+  paid_during_training: true        # ASSUMPTION (brief is silent) - state in report
+  paid_during_notice: true          # ASSUMPTION (brief is silent) - state in report
+
+seasonal_crews:
+  departments: [PARK]
+  months: [4, 5, 6, 7, 8, 9, 10]    # April-October
+  cost_multiplier: 1.3              # x monthly full-time cost
+  training_delay_months: 0
+  release_cost: 0
+
+overdue_costs:
+  per_overdue_request: 20
+  extra_if_30_days_past_target: 100
+
+starting_backlog: 0                 # no requests waiting at start of 2025
+
+scenarios:
+  base:       {demand_multiplier: 1.0}
+  high:       {demand_multiplier: 1.2}
+  low:        {demand_multiplier: 0.8}
+  snowstorm:  {spike: {departments: [PWDx, BTDT], month: 2, multiplier: 1.5}}  # PLACEHOLDER - C sizes from worst 2023-24 winter month
+  heat_wave:  {spike: {departments: [PARK, ISD],  month: 7, multiplier: 1.4}}  # PLACEHOLDER - C sizes from worst 2023-24 summer month
+
+llm:
+  model: gpt-4o-mini
+  embedding_model: text-embedding-3-small
+  temperature: 0
+  retrieval_top_k: 8
+  cache_dir: data/cache/llm
