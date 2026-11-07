@@ -1,0 +1,14 @@
+duckdb
+pandas
+pyarrow
+numpy
+pyyaml
+python-dotenv
+pydantic
+openai
+statsmodels
+scikit-learn
+pulp
+matplotlib
+streamlit
+jupyter
