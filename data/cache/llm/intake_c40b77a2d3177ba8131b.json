@@ -1,0 +1,10 @@
+{
+  "request_type": "Ground Maintenance",
+  "alternatives": [
+    "Equipment Repair",
+    "Parks General Request"
+  ],
+  "confidence": "medium",
+  "needs_follow_up": true,
+  "follow_up_question": "Can you describe what is broken by the park?"
+}
