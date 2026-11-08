@@ -1,0 +1,10 @@
+{
+  "description": "There are issues or requests related to the parks that need attention.",
+  "example_titles": [
+    "Parks General Request",
+    "Weeds",
+    "Equipment Repair: Back Bay Fens",
+    "Equipment Repair: Franklin Park",
+    "Ground Maintenance: Public Garden"
+  ]
+}

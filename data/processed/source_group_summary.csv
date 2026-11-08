@@ -1,0 +1,9 @@
+department,source_group,requests,share_pct,on_time_pct,median_days_to_close
+BTDT,Employee,50182,61.6,50.1,0.9
+BTDT,Resident,31265,38.4,49.7,1.6
+ISD,Employee,7502,40.3,74.7,2.2
+ISD,Resident,11122,59.7,70.9,3.2
+PARK,Employee,11307,60.3,95.0,2.8
+PARK,Resident,7429,39.7,90.4,1.9
+PWDx,Employee,78174,49.6,89.6,0.1
+PWDx,Resident,79436,50.4,89.8,0.5

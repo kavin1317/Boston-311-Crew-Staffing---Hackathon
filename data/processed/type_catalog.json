@@ -1,0 +1,5832 @@
+[
+  {
+    "type": "Parking Enforcement",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.9943
+      }
+    ],
+    "n_2024": 63112,
+    "description": "There is an issue with parking regulations being violated in my area.",
+    "example_titles": [
+      "Parking Enforcement"
+    ]
+  },
+  {
+    "type": "Requests for Street Cleaning",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.1364
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.1146
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0849
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0757
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.0616
+      },
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.058
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.0552
+      },
+      {
+        "queue": "PWDx_District 1B: North End",
+        "share": 0.0543
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.0509
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0371
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.037
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.0363
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0308
+      },
+      {
+        "queue": "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item",
+        "share": 0.0288
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0193
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0145
+      },
+      {
+        "queue": "PWDx_Request for Street Cleaning",
+        "share": 0.0144
+      },
+      {
+        "queue": "PWDx_District 1A: Charlestown",
+        "share": 0.0122
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0119
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0108
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0078
+      },
+      {
+        "queue": "INFO_Encampments",
+        "share": 0.0072
+      }
+    ],
+    "n_2024": 22507,
+    "description": "The street is dirty and needs to be cleaned.",
+    "example_titles": [
+      "Requests for Street Cleaning",
+      "Street Cleaning",
+      "WEEDS",
+      "POWER WASH",
+      "CONE"
+    ]
+  },
+  {
+    "type": "Improper Storage of Trash (Barrels)",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.9648
+      }
+    ],
+    "n_2024": 20460,
+    "description": "Trash barrels are not stored properly and are left out in the open.",
+    "example_titles": [
+      "Improper Storage of Trash (Barrels)"
+    ]
+  },
+  {
+    "type": "CE Collection",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.3044
+      },
+      {
+        "queue": "PWDx_District 1B: North End",
+        "share": 0.2516
+      },
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.0773
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0595
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.0587
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.0512
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0444
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.0433
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0299
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0217
+      },
+      {
+        "queue": "PWDx_WM_Mattress_Pickup",
+        "share": 0.0137
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.0098
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0097
+      },
+      {
+        "queue": "PWDx_District 1A: Charlestown",
+        "share": 0.0085
+      }
+    ],
+    "n_2024": 18131,
+    "description": "There is debris or litter that needs to be collected from the street.",
+    "example_titles": [
+      "CE Collection"
+    ]
+  },
+  {
+    "type": "Schedule a Bulk Item Pickup",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Schedule a Bulk Item Pickup",
+        "share": 0.9999
+      }
+    ],
+    "n_2024": 11829,
+    "description": "I need to schedule a pickup for large items I want to throw away.",
+    "example_titles": [
+      "Schedule a Bulk Item Pickup"
+    ]
+  },
+  {
+    "type": "Needle Pickup",
+    "department": "GEN",
+    "queues": [
+      {
+        "queue": "GEN_Needle_Pickup",
+        "share": 0.9976
+      }
+    ],
+    "n_2024": 10736,
+    "description": "There are needles on the ground that need to be picked up.",
+    "example_titles": [
+      "Needle Pickup",
+      "Needle Clean-up"
+    ]
+  },
+  {
+    "type": "Request for Pothole Repair",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Roadway Repair_ARP_Resurfacing",
+        "share": 0.139
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0802
+      },
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.0723
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0649
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.054
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.0496
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.0456
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0452
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0421
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.0403
+      },
+      {
+        "queue": "BWSC_Pothole",
+        "share": 0.0393
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0361
+      },
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.036
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0324
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0288
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.028
+      },
+      {
+        "queue": "PWDx_Highway Construction",
+        "share": 0.0267
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0246
+      },
+      {
+        "queue": "PWDx_District 1B: North End",
+        "share": 0.0211
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.0177
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0152
+      },
+      {
+        "queue": "PWDx_Requests for Pothole Repair",
+        "share": 0.014
+      },
+      {
+        "queue": "PWDx_District 1A: Charlestown",
+        "share": 0.0115
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.0053
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0052
+      }
+    ],
+    "n_2024": 10620,
+    "description": "There is a pothole on the road that needs to be repaired.",
+    "example_titles": [
+      "Request for Pothole Repair",
+      "Pothole",
+      "Sinkhole",
+      "Please patch",
+      "Patch pothole"
+    ]
+  },
+  {
+    "type": "Missed Trash/Recycling/Yard Waste/Bulk Item",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item",
+        "share": 0.9917
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0074
+      }
+    ],
+    "n_2024": 10593,
+    "description": "My trash or recycling was not picked up on the scheduled day.",
+    "example_titles": [
+      "Missed Trash: District 07",
+      "Missed Trash: District 02",
+      "Missed Trash: District 06",
+      "Missed Trash: District 03",
+      "Missed Trash: District 08"
+    ]
+  },
+  {
+    "type": "Poor Conditions of Property",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.9733
+      },
+      {
+        "queue": "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item",
+        "share": 0.0063
+      }
+    ],
+    "n_2024": 8776,
+    "description": "The property is in bad shape and needs attention.",
+    "example_titles": [
+      "Poor Conditions of Property",
+      "Student Move-in CE Violation",
+      "Weeds"
+    ]
+  },
+  {
+    "type": "Tree Maintenance Requests",
+    "department": "PARK",
+    "queues": [
+      {
+        "queue": "PARK_Tree Maintenance Request",
+        "share": 0.8167
+      },
+      {
+        "queue": "PARK_Tree Emergencies",
+        "share": 0.091
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0277
+      },
+      {
+        "queue": "PARK_Tree in Park",
+        "share": 0.0194
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0094
+      }
+    ],
+    "n_2024": 8618,
+    "description": "There are issues with the trees that need maintenance.",
+    "example_titles": [
+      "Tree Maintenance Requests",
+      "Tree Maintenance"
+    ]
+  },
+  {
+    "type": "Mattress_Pickup",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_WM_Mattress_Pickup",
+        "share": 0.9999
+      }
+    ],
+    "n_2024": 8534,
+    "description": "I need to have a mattress picked up from my property.",
+    "example_titles": [
+      "Mattress Pickup"
+    ]
+  },
+  {
+    "type": "Pick up Dead Animal",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.1309
+      },
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.0942
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0881
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0846
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0781
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0777
+      },
+      {
+        "queue": "PWDx_District 1B: North End",
+        "share": 0.0662
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.0504
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.0488
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.0472
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0325
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0315
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0288
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.0279
+      },
+      {
+        "queue": "PWDx_District 1A: Charlestown",
+        "share": 0.0167
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0158
+      },
+      {
+        "queue": "ANML_General",
+        "share": 0.0133
+      },
+      {
+        "queue": "PARK_Maintenance_Region 1",
+        "share": 0.0127
+      },
+      {
+        "queue": "PWDx_Pick Up Dead Animals",
+        "share": 0.0107
+      },
+      {
+        "queue": "PARK_Maintenance_Region 4",
+        "share": 0.0055
+      }
+    ],
+    "n_2024": 8408,
+    "description": "There is a dead animal that needs to be picked up from the street.",
+    "example_titles": [
+      "Pick up Dead Animal"
+    ]
+  },
+  {
+    "type": "Schedule a Bulk Item Pickup SS",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Schedule a Bulk Item Pickup",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 7409,
+    "description": "I need to schedule a pickup for large items I want to dispose of.",
+    "example_titles": [
+      "Schedule Bulk Item Pickup"
+    ]
+  },
+  {
+    "type": "Sidewalk Repair (Make Safe)",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.4375
+      },
+      {
+        "queue": "PWDx_Highway Construction",
+        "share": 0.2421
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0411
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0272
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0169
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0147
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0143
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair (Make Safe)",
+        "share": 0.0141
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0134
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.012
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0118
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.0094
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.009
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.0087
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0085
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0076
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0065
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.006
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0058
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.0053
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.0051
+      },
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.0051
+      }
+    ],
+    "n_2024": 5664,
+    "description": "The sidewalk is damaged and poses a safety hazard.",
+    "example_titles": [
+      "Sidewalk Repair (Make Safe)",
+      "Sidewalk (Make Safe)",
+      "BRICKS",
+      "SINKHOLE",
+      "CONCRETE"
+    ]
+  },
+  {
+    "type": "Sign Repair",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.6896
+      },
+      {
+        "queue": "BTDT_District 01",
+        "share": 0.0452
+      },
+      {
+        "queue": "BTDT_District 02",
+        "share": 0.0441
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0377
+      },
+      {
+        "queue": "BTDT_District 06",
+        "share": 0.0323
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0211
+      },
+      {
+        "queue": "BTDT_Engineering_New Sign and Pavement Marking Requests",
+        "share": 0.0174
+      },
+      {
+        "queue": "BTDT_District 05",
+        "share": 0.012
+      },
+      {
+        "queue": "BTDT_District 03",
+        "share": 0.0118
+      },
+      {
+        "queue": "BTDT_Sign Repair",
+        "share": 0.0106
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0103
+      },
+      {
+        "queue": "BTDT_District 04",
+        "share": 0.0077
+      },
+      {
+        "queue": "BTDT_Traffic Signal_Repair",
+        "share": 0.0073
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0071
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0063
+      }
+    ],
+    "n_2024": 5355,
+    "description": "A street sign is damaged and needs to be fixed.",
+    "example_titles": [
+      "Sign Repair"
+    ]
+  },
+  {
+    "type": "Rodent Activity",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.926
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0315
+      },
+      {
+        "queue": "ANML_General",
+        "share": 0.0068
+      }
+    ],
+    "n_2024": 5013,
+    "description": "I see rodents in my area or there are dead animals that need to be picked up.",
+    "example_titles": [
+      "Rodent Activity",
+      "Pick up Dead Animal"
+    ]
+  },
+  {
+    "type": "Abandoned Vehicles",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_AVRS Interface Queue",
+        "share": 0.9512
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0265
+      },
+      {
+        "queue": "BPD_Districts",
+        "share": 0.0081
+      }
+    ],
+    "n_2024": 4837,
+    "description": "There is a vehicle left abandoned on the street.",
+    "example_titles": [
+      "Abandoned Vehicles",
+      "Abandoned Vehicles: Scooter/Moped",
+      "Abandoned Vehicles: Motorcycle",
+      "Abandoned Vehicles: Multiple Vehicles",
+      "Abandoned Vehicles: RV/Trailer"
+    ]
+  },
+  {
+    "type": "Traffic Signal Inspection",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Traffic Signal_Repair",
+        "share": 0.6327
+      },
+      {
+        "queue": "BTDT_Engineering_Request for Traffic Signal Study or Review",
+        "share": 0.1755
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0555
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.042
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0231
+      },
+      {
+        "queue": "BTDT_BostonBikes",
+        "share": 0.016
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.0123
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0105
+      },
+      {
+        "queue": "BTDT_Engineering_New Sign and Pavement Marking Requests",
+        "share": 0.0087
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.0064
+      },
+      {
+        "queue": "BPD_Districts",
+        "share": 0.0055
+      }
+    ],
+    "n_2024": 4381,
+    "description": "The traffic signal is malfunctioning or needs to be checked for safety.",
+    "example_titles": [
+      "Traffic Signal Inspection"
+    ]
+  },
+  {
+    "type": "Street Light Outages",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Street Light Outages",
+        "share": 0.8364
+      },
+      {
+        "queue": "PWDx_Street Light Outages - Gas",
+        "share": 0.039
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0275
+      },
+      {
+        "queue": "PWDx_Street Light Outages - Long-Term Repair",
+        "share": 0.0201
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0148
+      },
+      {
+        "queue": "BTDT_Traffic Signal_Repair",
+        "share": 0.0127
+      },
+      {
+        "queue": "PWDx_STRL Pole Compliance",
+        "share": 0.0093
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0077
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0065
+      }
+    ],
+    "n_2024": 4182,
+    "description": "A street light is not working and needs to be repaired.",
+    "example_titles": [
+      "Street Light Outages",
+      "Street Light Outage",
+      "Gas Street Light Outages",
+      "Street Light Outages Contractor light",
+      "Street Light Outages//GAS LIGHT //"
+    ]
+  },
+  {
+    "type": "Recycling Cart Return",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Recycling Sent to Contractor",
+        "share": 0.9104
+      },
+      {
+        "queue": "PWDx_Recycling Cart Return",
+        "share": 0.0471
+      },
+      {
+        "queue": "PWDx_IPL Damaged Cart Replacement",
+        "share": 0.0425
+      }
+    ],
+    "n_2024": 4140,
+    "description": "My recycling cart has not been returned after collection.",
+    "example_titles": [
+      "Recycling Cart Return"
+    ]
+  },
+  {
+    "type": "Request for Recycling Cart",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Recycling Sent to Contractor",
+        "share": 0.8171
+      },
+      {
+        "queue": "PWDx_Recycling",
+        "share": 0.1824
+      }
+    ],
+    "n_2024": 4079,
+    "description": "I need a recycling cart for my home.",
+    "example_titles": [
+      "Request for Recycling Cart"
+    ]
+  },
+  {
+    "type": "Ground Maintenance",
+    "department": "PARK",
+    "queues": [
+      {
+        "queue": "PARK_Maintenance_Region 1",
+        "share": 0.1925
+      },
+      {
+        "queue": "PARK_Maintenance_Region 6",
+        "share": 0.1277
+      },
+      {
+        "queue": "PARK_Maintenance_Region 2",
+        "share": 0.1259
+      },
+      {
+        "queue": "PARK_Maintenance_Region 3",
+        "share": 0.0999
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0923
+      },
+      {
+        "queue": "PARK_Maintenance_Region 4",
+        "share": 0.0863
+      },
+      {
+        "queue": "PARK_Maintenance_Region 5",
+        "share": 0.0694
+      },
+      {
+        "queue": "PARK_Maintenance_Ground Maintenance",
+        "share": 0.0338
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0276
+      },
+      {
+        "queue": "PARK_Maintenance_Support Services",
+        "share": 0.0174
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.014
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0135
+      },
+      {
+        "queue": "PARK_Graffiti",
+        "share": 0.0104
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0101
+      },
+      {
+        "queue": "INFO_Encampments",
+        "share": 0.0088
+      },
+      {
+        "queue": "PARK_Plumbing",
+        "share": 0.0083
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0065
+      }
+    ],
+    "n_2024": 3845,
+    "description": "The grass and plants in the park need maintenance or care.",
+    "example_titles": [
+      "Ground Maintenance",
+      "Ground Maintenance: Ronan Park",
+      "Ground Maintenance: Franklin Park",
+      "Ground Maintenance: Jamaica Pond",
+      "Ground Maintenance: Boston Common"
+    ]
+  },
+  {
+    "type": "Unshoveled Sidewalk",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.9624
+      }
+    ],
+    "n_2024": 3801,
+    "description": "The sidewalk in front of my house hasn't been shoveled after the snowstorm.",
+    "example_titles": [
+      "Unshoveled Sidewalk"
+    ]
+  },
+  {
+    "type": "Animal Generic Request",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.9966
+      }
+    ],
+    "n_2024": 3498,
+    "description": "I need help with an animal issue.",
+    "example_titles": [
+      "Animal Generic Request"
+    ]
+  },
+  {
+    "type": "Illegal Dumping",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.9438
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0106
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0063
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.006
+      }
+    ],
+    "n_2024": 3007,
+    "description": "There is trash or debris dumped in my neighborhood.",
+    "example_titles": [
+      "Illegal Dumping"
+    ]
+  },
+  {
+    "type": "Equipment Repair",
+    "department": "PARK",
+    "queues": [
+      {
+        "queue": "PARK_Maintenance_Trades",
+        "share": 0.1671
+      },
+      {
+        "queue": "PARK_Carpentry",
+        "share": 0.1512
+      },
+      {
+        "queue": "PARK_Plumbing",
+        "share": 0.1314
+      },
+      {
+        "queue": "PARK_Welding",
+        "share": 0.1093
+      },
+      {
+        "queue": "PARK_Graffiti",
+        "share": 0.1079
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0754
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0329
+      },
+      {
+        "queue": "PARK_Painting",
+        "share": 0.0301
+      },
+      {
+        "queue": "PARK_Park Improvement Requests",
+        "share": 0.0277
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0201
+      },
+      {
+        "queue": "PARK_Maintenance_Region 1",
+        "share": 0.018
+      },
+      {
+        "queue": "PARK_Maintenance_Support Services",
+        "share": 0.0128
+      },
+      {
+        "queue": "PARK_Maintenance_Lighting Electrical",
+        "share": 0.0104
+      },
+      {
+        "queue": "PARK_Maintenance_Region 6",
+        "share": 0.0097
+      },
+      {
+        "queue": "PARK_Maintenance_Region 3",
+        "share": 0.009
+      },
+      {
+        "queue": "PARK_Maintenance_Region 4",
+        "share": 0.0086
+      },
+      {
+        "queue": "PARK_Maintenance_Region 2",
+        "share": 0.0086
+      },
+      {
+        "queue": "INFO_Massport",
+        "share": 0.0055
+      }
+    ],
+    "n_2024": 2891,
+    "description": "Some park equipment is broken and needs to be fixed.",
+    "example_titles": [
+      "Equipment Repair",
+      "Park Equipment Repair",
+      "Equipment Repair: Boston Common",
+      "Equipment Repair: Billings Field",
+      "Equipment Repair: Harambee Field"
+    ]
+  },
+  {
+    "type": "New Tree Requests",
+    "department": "PARK",
+    "queues": [
+      {
+        "queue": "PARK_New Tree Requests",
+        "share": 0.9133
+      },
+      {
+        "queue": "PARK_Tree Maintenance Request",
+        "share": 0.0597
+      },
+      {
+        "queue": "PARK_Tree Emergencies",
+        "share": 0.01
+      }
+    ],
+    "n_2024": 2595,
+    "description": "I want to request a new tree to be planted in my neighborhood.",
+    "example_titles": [
+      "New Tree Requests",
+      "New Tree Request"
+    ]
+  },
+  {
+    "type": "Empty Litter Basket",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.1356
+      },
+      {
+        "queue": "PWDx_District 1B: North End",
+        "share": 0.1034
+      },
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.0987
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0983
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0873
+      },
+      {
+        "queue": "PWDx_District 1A: Charlestown",
+        "share": 0.0751
+      },
+      {
+        "queue": "PWDx_Empty Litter Basket",
+        "share": 0.0409
+      },
+      {
+        "queue": "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item",
+        "share": 0.0354
+      },
+      {
+        "queue": "PARK_Maintenance_Region 1",
+        "share": 0.0326
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.0307
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0291
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0283
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.0267
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0212
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.0212
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0204
+      },
+      {
+        "queue": "PARK_Maintenance_Region 6",
+        "share": 0.0185
+      },
+      {
+        "queue": "PARK_Maintenance_Region 2",
+        "share": 0.0142
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0118
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0094
+      },
+      {
+        "queue": "PARK_Maintenance_Region 5",
+        "share": 0.0086
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.0083
+      },
+      {
+        "queue": "PARK_Maintenance_Region 3",
+        "share": 0.0071
+      },
+      {
+        "queue": "PWDx_Litter Basket Maintenance",
+        "share": 0.0067
+      },
+      {
+        "queue": "PARK_Maintenance_Region 4",
+        "share": 0.0059
+      }
+    ],
+    "n_2024": 2544,
+    "description": "The litter basket is full and needs to be emptied.",
+    "example_titles": [
+      "Empty Litter Basket"
+    ]
+  },
+  {
+    "type": "Graffiti Removal",
+    "department": "PROP",
+    "queues": [
+      {
+        "queue": "PROP_GRAF_GraffitiRemoval",
+        "share": 0.9792
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0108
+      }
+    ],
+    "n_2024": 2501,
+    "description": "There is graffiti on a wall or surface that needs to be removed.",
+    "example_titles": [
+      "Graffiti Removal",
+      "Graffiti: Ward 10",
+      "Graffiti: Ward 3",
+      "Graffiti: 10",
+      "Graffiti: Ward 4"
+    ]
+  },
+  {
+    "type": "Sticker Request",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Sticker Request",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 2434,
+    "description": "I need a sticker for my recycling bin.",
+    "example_titles": [
+      "Sticker Request"
+    ]
+  },
+  {
+    "type": "Unsatisfactory Living Conditions",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.9791
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0084
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0059
+      }
+    ],
+    "n_2024": 2390,
+    "description": "My living conditions are unsatisfactory and need to be addressed.",
+    "example_titles": [
+      "Unsatisfactory Living Conditions"
+    ]
+  },
+  {
+    "type": "Pest Infestation - Residential",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.5823
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.3116
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0636
+      },
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 0.0217
+      },
+      {
+        "queue": "ANML_General",
+        "share": 0.0086
+      }
+    ],
+    "n_2024": 1980,
+    "description": "I have a pest problem in my home, like mice or cockroaches.",
+    "example_titles": [
+      "Pest Infestation - Residential",
+      "DISP Pest Infestation - Residential",
+      "SCH 12/27 Pest Infestation - Residential",
+      "SCH 12/30 Pest Infestation - Residential",
+      "SCH 9/24 Pest Infestation - Residential"
+    ]
+  },
+  {
+    "type": "Contractor Complaints",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.6268
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.0808
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0666
+      },
+      {
+        "queue": "PWDx_Roadway Repair_ARP_Resurfacing",
+        "share": 0.0561
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0314
+      },
+      {
+        "queue": "PWDx_Roadway Repair_Reconstruction",
+        "share": 0.0247
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0187
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.0142
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.009
+      },
+      {
+        "queue": "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item",
+        "share": 0.0082
+      },
+      {
+        "queue": "BTDT_Permits & Special Events",
+        "share": 0.0067
+      },
+      {
+        "queue": "PWDx_Roadway Repair",
+        "share": 0.006
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.006
+      }
+    ],
+    "n_2024": 1337,
+    "description": "There are issues with the work done by a contractor on the street.",
+    "example_titles": [
+      "Contractor Complaints"
+    ]
+  },
+  {
+    "type": "PWD Graffiti",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Graffiti",
+        "share": 0.1628
+      },
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.1283
+      },
+      {
+        "queue": "BTDT_Traffic Signal_Graffiti",
+        "share": 0.0714
+      },
+      {
+        "queue": "PWDx_STRL Pole Compliance",
+        "share": 0.0714
+      },
+      {
+        "queue": "PROP_GRAF_GraffitiRemoval",
+        "share": 0.0653
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0576
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0499
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.043
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0407
+      },
+      {
+        "queue": "PWDx_Highway Construction General",
+        "share": 0.0407
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.03
+      },
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.0192
+      },
+      {
+        "queue": "PARK_Graffiti",
+        "share": 0.0184
+      },
+      {
+        "queue": "BTDT_Traffic Signal_Repair",
+        "share": 0.0177
+      },
+      {
+        "queue": "PWDx_District 1B: North End",
+        "share": 0.0169
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.0146
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0131
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.0131
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.0131
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0108
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0108
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.01
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0092
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0092
+      },
+      {
+        "queue": "PWDx_Litter Basket Maintenance",
+        "share": 0.0077
+      },
+      {
+        "queue": "BTDT_Broken Meter Complaints",
+        "share": 0.0077
+      },
+      {
+        "queue": "PWDx_Street Light_General Lighting Request",
+        "share": 0.0069
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0069
+      },
+      {
+        "queue": "INFO_Eversource",
+        "share": 0.0069
+      },
+      {
+        "queue": "PWDx_Highway Construction",
+        "share": 0.0054
+      }
+    ],
+    "n_2024": 1302,
+    "description": "There is graffiti on a public surface that needs to be cleaned or removed.",
+    "example_titles": [
+      "PWD Graffiti",
+      "Power Wash",
+      "Black Paint",
+      "Paint Control Cabinet",
+      "Remove Ad"
+    ]
+  },
+  {
+    "type": "New Sign  Crosswalk or Pavement Marking",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Engineering_New Sign and Pavement Marking Requests",
+        "share": 0.6954
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.0913
+      },
+      {
+        "queue": "BTDT_Engineering_Request for Traffic Signal Study or Review",
+        "share": 0.0496
+      },
+      {
+        "queue": "BTDT_General Comments",
+        "share": 0.0437
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0298
+      },
+      {
+        "queue": "BTDT_BostonBikes",
+        "share": 0.0159
+      },
+      {
+        "queue": "BTDT_Sign Repair",
+        "share": 0.0149
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.006
+      }
+    ],
+    "n_2024": 1008,
+    "description": "There is no crosswalk or pavement marking where it is needed for safety.",
+    "example_titles": [
+      "New Sign Crosswalk or Pavement Marking",
+      "Sidewalk Make Safe"
+    ]
+  },
+  {
+    "type": "Work w/out Permit",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.9357
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0538
+      }
+    ],
+    "n_2024": 948,
+    "description": "Construction or renovation is happening without the necessary permits.",
+    "example_titles": [
+      "Work w/out Permit"
+    ]
+  },
+  {
+    "type": "Contractors Complaint",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.9138
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0287
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0138
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.0085
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0074
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0053
+      }
+    ],
+    "n_2024": 940,
+    "description": "There is an issue with a contractor's work or behavior on my property.",
+    "example_titles": [
+      "Contractors Complaint"
+    ]
+  },
+  {
+    "type": "Abandoned Bicycle",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Abandoned Bicycle",
+        "share": 0.8975
+      },
+      {
+        "queue": "BTDT_AVRS Interface Queue",
+        "share": 0.0626
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0108
+      },
+      {
+        "queue": "INFO_BPHC",
+        "share": 0.0065
+      }
+    ],
+    "n_2024": 927,
+    "description": "There is a bicycle left abandoned in my neighborhood.",
+    "example_titles": [
+      "Abandoned Bicycle",
+      "Abandoned Bicycle: Scooter/Moped"
+    ]
+  },
+  {
+    "type": "General Comments For a Program or Policy",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_General Comments",
+        "share": 0.3439
+      },
+      {
+        "queue": "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item",
+        "share": 0.2138
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0939
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.052
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.0396
+      },
+      {
+        "queue": "PARK_General Comments",
+        "share": 0.0396
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0238
+      },
+      {
+        "queue": "PWDx_Recycling",
+        "share": 0.0147
+      },
+      {
+        "queue": "PWDx_Roadway Repair_ARP_Resurfacing",
+        "share": 0.0124
+      },
+      {
+        "queue": "BTDT_BostonBikes",
+        "share": 0.0113
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.009
+      },
+      {
+        "queue": "BTDT_OPC_Phone Bank Service",
+        "share": 0.0079
+      },
+      {
+        "queue": "PARK_Tree Maintenance Request",
+        "share": 0.0079
+      },
+      {
+        "queue": "PWDx_Street Light_General Lighting Request",
+        "share": 0.0068
+      },
+      {
+        "queue": "INFO_Mayors Policy Office",
+        "share": 0.0068
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0057
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.0057
+      }
+    ],
+    "n_2024": 884,
+    "description": "I have feedback or a complaint about a city program or policy.",
+    "example_titles": [
+      "Complaint",
+      "Comment",
+      "Compliment",
+      "PublicWorks: Complaint",
+      "PublicWorks: Comment"
+    ]
+  },
+  {
+    "type": "Request for Snow Plowing",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.1626
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.1511
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.1223
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.1073
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0923
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.0704
+      },
+      {
+        "queue": "PWDx_Requests for Snow Plowing",
+        "share": 0.0623
+      },
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.0369
+      },
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.0334
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0242
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.0219
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.0208
+      },
+      {
+        "queue": "PWDx_District 1A: Charlestown",
+        "share": 0.0196
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0185
+      },
+      {
+        "queue": "PWDx_District 1B: North End",
+        "share": 0.0127
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0104
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0081
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0058
+      }
+    ],
+    "n_2024": 867,
+    "description": "The street hasn't been plowed after the snowstorm.",
+    "example_titles": [
+      "Request for Snow Plowing"
+    ]
+  },
+  {
+    "type": "General Lighting Request",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Street Light_General Lighting Request",
+        "share": 0.9495
+      },
+      {
+        "queue": "INFO_Eversource",
+        "share": 0.0099
+      }
+    ],
+    "n_2024": 812,
+    "description": "The street lights are not working or need maintenance.",
+    "example_titles": [
+      "General Lighting Request",
+      "Street Lights On Constant",
+      "Check Damaged Post - EP",
+      "Check Eversource Service - EP",
+      "Check Improperly Wired Photo Cell - RE"
+    ]
+  },
+  {
+    "type": "Heat - Excessive  Insufficient",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.9973
+      }
+    ],
+    "n_2024": 749,
+    "description": "My apartment is too hot or too cold and I can't get it to a comfortable temperature.",
+    "example_titles": [
+      "Heat - Excessive Insufficient"
+    ]
+  },
+  {
+    "type": "Tree Emergencies",
+    "department": "PARK",
+    "queues": [
+      {
+        "queue": "PARK_Tree Emergencies",
+        "share": 0.9647
+      },
+      {
+        "queue": "PARK_Tree Maintenance Request",
+        "share": 0.019
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0081
+      }
+    ],
+    "n_2024": 737,
+    "description": "There is a tree that has fallen or is in danger of falling, posing a risk to safety.",
+    "example_titles": [
+      "Tree Emergencies"
+    ]
+  },
+  {
+    "type": "Requests for Traffic Signal Studies or Reviews",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Engineering_Request for Traffic Signal Study or Review",
+        "share": 0.721
+      },
+      {
+        "queue": "BTDT_BostonBikes",
+        "share": 0.0649
+      },
+      {
+        "queue": "BTDT_Engineering_New Sign and Pavement Marking Requests",
+        "share": 0.0539
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.0387
+      },
+      {
+        "queue": "BTDT_Traffic Signal_Repair",
+        "share": 0.0373
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0359
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0235
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.0097
+      }
+    ],
+    "n_2024": 724,
+    "description": "I want a study or review of the traffic signals in my area.",
+    "example_titles": [
+      "Requests for Traffic Signal Studies or Reviews"
+    ]
+  },
+  {
+    "type": "Public Works General Request",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item",
+        "share": 0.3502
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0955
+      },
+      {
+        "queue": "PWDx_Recycling",
+        "share": 0.0738
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.0521
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0463
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0246
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0203
+      },
+      {
+        "queue": "PWDx_Roadway Repair_ARP_Resurfacing",
+        "share": 0.0188
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0159
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0145
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.013
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.013
+      },
+      {
+        "queue": "PWDx_Bridge Maintenance",
+        "share": 0.013
+      },
+      {
+        "queue": "PWDx_Engineering_PIC",
+        "share": 0.013
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0116
+      },
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.0101
+      },
+      {
+        "queue": "PWDx_Roadway Repair",
+        "share": 0.0101
+      },
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.0101
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.0101
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0087
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.0087
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.0087
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0087
+      },
+      {
+        "queue": "PWDx_Highway Construction",
+        "share": 0.0072
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.0072
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0058
+      },
+      {
+        "queue": "INFO_Eversource",
+        "share": 0.0058
+      },
+      {
+        "queue": "BTDT_BostonBikes",
+        "share": 0.0058
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.0058
+      },
+      {
+        "queue": "PWDx_Graffiti",
+        "share": 0.0058
+      }
+    ],
+    "n_2024": 691,
+    "description": "I need help with a general public works issue like weeds, dead animals, or street cleaning.",
+    "example_titles": [
+      "Public Works General Request",
+      "Weeds",
+      "Pick up Dead Animal",
+      "Request for Street Cleaning",
+      "Sink Hole"
+    ]
+  },
+  {
+    "type": "Loud Parties/Music/People",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 678,
+    "description": "There is loud music or a party that is disturbing my peace.",
+    "example_titles": [
+      "Loud Parties/Music/People"
+    ]
+  },
+  {
+    "type": "Maintenance Complaint - Residential",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.9614
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0185
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0108
+      }
+    ],
+    "n_2024": 647,
+    "description": "There are maintenance issues in my apartment or building that need to be addressed.",
+    "example_titles": [
+      "Maintenance Complaint - Residential",
+      "DISP Maintenance Complaint - Residential",
+      "SCH 9/19 Maintenance Complaint - Residential",
+      "DSP 4/4 Maintenance Complaint - Residential",
+      "SCH 12/27 Maintenance Complaint - Residential"
+    ]
+  },
+  {
+    "type": "Transportation General Request",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.662
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.1302
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.0295
+      },
+      {
+        "queue": "BTDT_BostonBikes",
+        "share": 0.0295
+      },
+      {
+        "queue": "BTDT_Engineering_New Sign and Pavement Marking Requests",
+        "share": 0.0248
+      },
+      {
+        "queue": "BTDT_Engineering_Request for Traffic Signal Study or Review",
+        "share": 0.0171
+      },
+      {
+        "queue": "PWDx_Space Saver Removal",
+        "share": 0.0155
+      },
+      {
+        "queue": "DISB_HP Sign",
+        "share": 0.0124
+      },
+      {
+        "queue": "BTDT_Abandoned Bicycle",
+        "share": 0.0124
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0109
+      },
+      {
+        "queue": "BTDT_Traffic Signal_Repair",
+        "share": 0.0109
+      },
+      {
+        "queue": "BPD_Districts",
+        "share": 0.0062
+      }
+    ],
+    "n_2024": 645,
+    "description": "I have a question or concern about transportation in the city.",
+    "example_titles": [
+      "Transportation General Request"
+    ]
+  },
+  {
+    "type": "Working Beyond Hours",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.9714
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0202
+      }
+    ],
+    "n_2024": 595,
+    "description": "Construction work is happening outside of permitted hours.",
+    "example_titles": [
+      "Working Beyond Hours"
+    ]
+  },
+  {
+    "type": "Catchbasin",
+    "department": "BWSC",
+    "queues": [
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.9694
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0136
+      }
+    ],
+    "n_2024": 588,
+    "description": "There is a problem with the catchbasin that needs attention.",
+    "example_titles": [
+      "Catchbasin"
+    ]
+  },
+  {
+    "type": "Building Inspection Request",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.892
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.0557
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0174
+      },
+      {
+        "queue": "ISD_Electrical",
+        "share": 0.0087
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.0052
+      }
+    ],
+    "n_2024": 574,
+    "description": "I need an inspection for a building.",
+    "example_titles": [
+      "Building Inspection Request"
+    ]
+  },
+  {
+    "type": "Unsanitary Conditions - Establishment",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 0.9634
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.007
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.007
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.007
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0052
+      }
+    ],
+    "n_2024": 573,
+    "description": "The establishment is not clean and has unsanitary conditions.",
+    "example_titles": [
+      "Unsanitary Conditions - Establishment"
+    ]
+  },
+  {
+    "type": "Parks Lighting/Electrical Issues",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PARK_Maintenance_Lighting Electrical",
+        "share": 0.3831
+      },
+      {
+        "queue": "PWDx_Street Light Outages",
+        "share": 0.2809
+      },
+      {
+        "queue": "PWDx_Street Light_General Lighting Request",
+        "share": 0.1081
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0786
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0472
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0216
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0118
+      },
+      {
+        "queue": "PWDx_Street Light Knock Downs",
+        "share": 0.0118
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0059
+      },
+      {
+        "queue": "INFO_Massport",
+        "share": 0.0059
+      },
+      {
+        "queue": "INFO_Down Wire",
+        "share": 0.0059
+      }
+    ],
+    "n_2024": 509,
+    "description": "The lights in the park are not working or are flickering.",
+    "example_titles": [
+      "Parks Lighting/Electrical Issues",
+      "Lighting/Electrical",
+      "Parks Lighting Issue: Boston Common",
+      "Parks Lighting Issue: Billings Field",
+      "Street Light Outage - Acorn"
+    ]
+  },
+  {
+    "type": "Electrical",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Electrical",
+        "share": 0.9938
+      }
+    ],
+    "n_2024": 480,
+    "description": "There is no power or electricity in my building.",
+    "example_titles": [
+      "Electrical",
+      "No power/electricity"
+    ]
+  },
+  {
+    "type": "Unsafe Dangerous Conditions",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.8473
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.0753
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0146
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0126
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.0105
+      },
+      {
+        "queue": "ISD_Electrical",
+        "share": 0.0084
+      },
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.0084
+      }
+    ],
+    "n_2024": 478,
+    "description": "There are unsafe or dangerous conditions in my building or on my property.",
+    "example_titles": [
+      "Unsafe/Dangerous Conditions"
+    ]
+  },
+  {
+    "type": "Roadway Repair",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Roadway Repair",
+        "share": 0.5394
+      },
+      {
+        "queue": "PWDx_Roadway Repair_ARP_Resurfacing",
+        "share": 0.2495
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0661
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0405
+      },
+      {
+        "queue": "PWDx_Roadway Repair_CRP_Resurfacing",
+        "share": 0.0149
+      },
+      {
+        "queue": "PWDx_Highway Construction",
+        "share": 0.0149
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0107
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0064
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0064
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.0064
+      }
+    ],
+    "n_2024": 469,
+    "description": "The road has potholes or is damaged and needs repair.",
+    "example_titles": [
+      "Roadway Repair"
+    ]
+  },
+  {
+    "type": "Street Light Knock Downs",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Street Light Knock Downs",
+        "share": 0.8112
+      },
+      {
+        "queue": "BTDT_Traffic Signal_Repair",
+        "share": 0.036
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0337
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0247
+      },
+      {
+        "queue": "PWDx_Street Light_General Lighting Request",
+        "share": 0.0202
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0135
+      },
+      {
+        "queue": "PWDx_Street Light Knockdown Replacement",
+        "share": 0.0135
+      },
+      {
+        "queue": "PWDx_Street Light Outages - Gas",
+        "share": 0.0112
+      },
+      {
+        "queue": "INFO_Eversource",
+        "share": 0.0067
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0067
+      }
+    ],
+    "n_2024": 445,
+    "description": "A street light has been knocked down and needs to be replaced.",
+    "example_titles": [
+      "Street Light Knock Downs",
+      "Street Light Knock Down",
+      "Knockdown Replacement",
+      "Street Light Knock Downs - SLCB 0183 - Washington St @ Marginal Rd"
+    ]
+  },
+  {
+    "type": "BWSC General Request",
+    "department": "BWSC",
+    "queues": [
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.9807
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.0055
+      }
+    ],
+    "n_2024": 363,
+    "description": "I have a general question or request related to BWSC services.",
+    "example_titles": [
+      "General Request"
+    ]
+  },
+  {
+    "type": "Mice Infestation - Residential",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.9797
+      },
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.0174
+      }
+    ],
+    "n_2024": 345,
+    "description": "I have a mice infestation in my home.",
+    "example_titles": [
+      "Mice Infestation - Residential"
+    ]
+  },
+  {
+    "type": "Short Term Rental",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing_ShortTermRental",
+        "share": 0.6624
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.1447
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0804
+      },
+      {
+        "queue": "BPD_Districts",
+        "share": 0.0482
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0129
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0129
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0096
+      },
+      {
+        "queue": "INFO_Encampments",
+        "share": 0.0064
+      }
+    ],
+    "n_2024": 311,
+    "description": "I want to report a short term rental in my neighborhood that may not be registered properly.",
+    "example_titles": [
+      "Short Term Rental"
+    ]
+  },
+  {
+    "type": "Missing Sign",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.7576
+      },
+      {
+        "queue": "BTDT_Engineering_New Sign and Pavement Marking Requests",
+        "share": 0.0438
+      },
+      {
+        "queue": "BTDT_Sign Repair",
+        "share": 0.0404
+      },
+      {
+        "queue": "BTDT_District 02",
+        "share": 0.037
+      },
+      {
+        "queue": "BTDT_District 06",
+        "share": 0.0269
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0202
+      },
+      {
+        "queue": "BTDT_District 01",
+        "share": 0.0135
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0135
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0135
+      },
+      {
+        "queue": "BTDT_District 04",
+        "share": 0.0101
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0067
+      }
+    ],
+    "n_2024": 297,
+    "description": "A street sign is missing and needs to be replaced.",
+    "example_titles": [
+      "Missing Sign"
+    ]
+  },
+  {
+    "type": "Traffic Signal Repair",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Traffic Signal_Graffiti",
+        "share": 0.43
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0887
+      },
+      {
+        "queue": "BTDT_Traffic Signal_Repair",
+        "share": 0.0853
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0819
+      },
+      {
+        "queue": "PROP_GRAF_GraffitiRemoval",
+        "share": 0.0648
+      },
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.0341
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0205
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0205
+      },
+      {
+        "queue": "BTDT_Broken Meter Complaints",
+        "share": 0.0171
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.0171
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0171
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0137
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0102
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0102
+      },
+      {
+        "queue": "PWDx_STRL Pole Compliance",
+        "share": 0.0102
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0068
+      },
+      {
+        "queue": "PWDx_Graffiti",
+        "share": 0.0068
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.0068
+      },
+      {
+        "queue": "PARK_Painting",
+        "share": 0.0068
+      },
+      {
+        "queue": "PARK_Graffiti",
+        "share": 0.0068
+      },
+      {
+        "queue": "INFO_Massport",
+        "share": 0.0068
+      },
+      {
+        "queue": "BTDT_Engineering_Request for Traffic Signal Study or Review",
+        "share": 0.0068
+      },
+      {
+        "queue": "PWDx_Street Light_General Lighting Request",
+        "share": 0.0068
+      }
+    ],
+    "n_2024": 293,
+    "description": "The traffic light is broken or not working properly.",
+    "example_titles": [
+      "Traffic Signal Repair"
+    ]
+  },
+  {
+    "type": "Chronic Dampness/Mold",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 290,
+    "description": "There is persistent dampness or mold in my home that needs to be addressed.",
+    "example_titles": [
+      "Chronic Dampness/Mold"
+    ]
+  },
+  {
+    "type": "Major System Failure",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Major System Failure",
+        "share": 0.911
+      },
+      {
+        "queue": "PWDx_Street Light Outages",
+        "share": 0.032
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0285
+      },
+      {
+        "queue": "INFO_Eversource",
+        "share": 0.0142
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0107
+      }
+    ],
+    "n_2024": 281,
+    "description": "The street lights are not working properly or are completely out.",
+    "example_titles": [
+      "Major System Failure",
+      "Major System Failure printed",
+      "Major System Failure /Gas Leak",
+      "1 light dim",
+      "Major System Failure - Duplicate"
+    ]
+  },
+  {
+    "type": "Sidewalk Cover / Manhole",
+    "department": "BWSC",
+    "queues": [
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.9041
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0369
+      },
+      {
+        "queue": "INFO_Eversource",
+        "share": 0.0295
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.0074
+      },
+      {
+        "queue": "PWDx_Street Light_General Lighting Request",
+        "share": 0.0074
+      }
+    ],
+    "n_2024": 271,
+    "description": "There is a problem with a sidewalk cover or manhole that needs attention.",
+    "example_titles": [
+      "Sidewalk Cover / Manhole"
+    ]
+  },
+  {
+    "type": "Fire Hydrant",
+    "department": "BWSC",
+    "queues": [
+      {
+        "queue": "BWSC_All Cases",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 266,
+    "description": "There is an issue with a fire hydrant in my area.",
+    "example_titles": [
+      "Fire Hydrant"
+    ]
+  },
+  {
+    "type": "Protection of Adjoining Property",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.9237
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0229
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0191
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.0115
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0076
+      }
+    ],
+    "n_2024": 262,
+    "description": "My property is being damaged by construction or work on a neighboring property.",
+    "example_titles": [
+      "Protection of Adjoining Property"
+    ]
+  },
+  {
+    "type": "General Comments For An Employee",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item",
+        "share": 0.4627
+      },
+      {
+        "queue": "BTDT_General Comments",
+        "share": 0.1451
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0863
+      },
+      {
+        "queue": "PARK_General Comments",
+        "share": 0.0824
+      },
+      {
+        "queue": "BTDT_OPC_Walk-In Service",
+        "share": 0.0235
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0196
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0157
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0157
+      },
+      {
+        "queue": "PWDx_Street Light_General Lighting Request",
+        "share": 0.0118
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0118
+      },
+      {
+        "queue": "PWDx_District 1B: North End",
+        "share": 0.0078
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0078
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0078
+      },
+      {
+        "queue": "PWDx_Bridge Maintenance",
+        "share": 0.0078
+      },
+      {
+        "queue": "BTDT_OPC_Phone Bank Service",
+        "share": 0.0078
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0078
+      }
+    ],
+    "n_2024": 255,
+    "description": "I want to share my thoughts about an employee's performance or behavior.",
+    "example_titles": [
+      "PublicWorks: Complaint",
+      "BTDT: Complaint",
+      "PARKS: Complaint",
+      "PublicWorks: Compliment",
+      "PARKS: Compliment"
+    ]
+  },
+  {
+    "type": "Park Improvement Requests",
+    "department": "PARK",
+    "queues": [
+      {
+        "queue": "PARK_Park Improvement Requests",
+        "share": 0.925
+      },
+      {
+        "queue": "PARK_Graffiti",
+        "share": 0.0167
+      },
+      {
+        "queue": "PARK_Maintenance_Region 1",
+        "share": 0.0083
+      },
+      {
+        "queue": "PARK_Maintenance_Support Services",
+        "share": 0.0083
+      },
+      {
+        "queue": "PARK_Painting",
+        "share": 0.0083
+      }
+    ],
+    "n_2024": 240,
+    "description": "The park needs improvements or repairs to make it safer and more enjoyable.",
+    "example_titles": [
+      "Park Improvement Requests",
+      "Park Improvement: Boston Common",
+      "Park Improvement: Ringer Playground",
+      "Park Improvement: Garvey Playground",
+      "Park Improvement: Malcolm X Park"
+    ]
+  },
+  {
+    "type": "Utility Casting Repair",
+    "department": "BWSC",
+    "queues": [
+      {
+        "queue": "BWSC_Pothole",
+        "share": 0.5
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.1667
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.1208
+      },
+      {
+        "queue": "PWDx_Utility Casting Repair",
+        "share": 0.0917
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0583
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.0167
+      },
+      {
+        "queue": "INFO_Eversource",
+        "share": 0.0125
+      },
+      {
+        "queue": "PWDx_Highway Construction",
+        "share": 0.0125
+      }
+    ],
+    "n_2024": 240,
+    "description": "There is a problem with a utility casting that needs repair.",
+    "example_titles": [
+      "Utility Casting Repair"
+    ]
+  },
+  {
+    "type": "Food Alert - Confirmed",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 236,
+    "description": "There is a confirmed issue with food safety or unsanitary conditions at a food establishment.",
+    "example_titles": [
+      "Food Alert - Confirmed"
+    ]
+  },
+  {
+    "type": "Illegal Vending",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.9289
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.0178
+      },
+      {
+        "queue": "BPD_Districts",
+        "share": 0.0133
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0089
+      },
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 0.0089
+      },
+      {
+        "queue": "ONS_Roxbury",
+        "share": 0.0089
+      }
+    ],
+    "n_2024": 225,
+    "description": "There is someone selling goods without a permit in a public area.",
+    "example_titles": [
+      "Illegal Vending"
+    ]
+  },
+  {
+    "type": "Unsanitary Conditions - Food",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 0.982
+      }
+    ],
+    "n_2024": 222,
+    "description": "There are unsanitary conditions related to food in my area.",
+    "example_titles": [
+      "Unsanitary Conditions - Food"
+    ]
+  },
+  {
+    "type": "Parking on Front/Back Yards (Illegal Parking)",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.7246
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.1787
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.0338
+      },
+      {
+        "queue": "BTDT_AVRS Interface Queue",
+        "share": 0.029
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0097
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0097
+      }
+    ],
+    "n_2024": 207,
+    "description": "Cars are parked on my front or back yard illegally.",
+    "example_titles": [
+      "Parking on Front/Back Yards"
+    ]
+  },
+  {
+    "type": "Unsatisfactory Utilities - Electrical  Plumbing",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.985
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.01
+      },
+      {
+        "queue": "ISD_Plumbing",
+        "share": 0.005
+      }
+    ],
+    "n_2024": 200,
+    "description": "The electricity or plumbing in my home is not working properly.",
+    "example_titles": [
+      "Unsatisfactory Utilities - Electrical  Plumbing"
+    ]
+  },
+  {
+    "type": "Construction Debris",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.9427
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0208
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0156
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0052
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0052
+      },
+      {
+        "queue": "INFO_Eversource",
+        "share": 0.0052
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0052
+      }
+    ],
+    "n_2024": 192,
+    "description": "There is construction debris left on the street or sidewalk.",
+    "example_titles": [
+      "Construction Debris"
+    ]
+  },
+  {
+    "type": "Illegal Auto Body Shop",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.5189
+      },
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.3838
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.027
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0216
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0162
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.0108
+      },
+      {
+        "queue": "BPD_Districts",
+        "share": 0.0054
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0054
+      },
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 0.0054
+      },
+      {
+        "queue": "PWDx_Roadway Repair_ARP_Resurfacing",
+        "share": 0.0054
+      }
+    ],
+    "n_2024": 185,
+    "description": "There is an auto body shop operating illegally in my neighborhood.",
+    "example_titles": [
+      "Illegal Auto Body Shop"
+    ]
+  },
+  {
+    "type": "Parks General Request",
+    "department": "PARK",
+    "queues": [
+      {
+        "queue": "PARK_Maintenance_Region 2",
+        "share": 0.0833
+      },
+      {
+        "queue": "PARK_Tree Maintenance Request",
+        "share": 0.0722
+      },
+      {
+        "queue": "PARK_Maintenance_Region 5",
+        "share": 0.0611
+      },
+      {
+        "queue": "PARK_Plumbing",
+        "share": 0.0556
+      },
+      {
+        "queue": "PARK_Maintenance_Region 3",
+        "share": 0.0556
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.05
+      },
+      {
+        "queue": "PARK_Maintenance_Region 4",
+        "share": 0.05
+      },
+      {
+        "queue": "PARK_Cemetery Maintenance Request",
+        "share": 0.05
+      },
+      {
+        "queue": "PARK_Maintenance_Region 1",
+        "share": 0.05
+      },
+      {
+        "queue": "PARK_Maintenance_Trades",
+        "share": 0.0444
+      },
+      {
+        "queue": "PARK_Park Improvement Requests",
+        "share": 0.0444
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0389
+      },
+      {
+        "queue": "PARK_Carpentry",
+        "share": 0.0278
+      },
+      {
+        "queue": "PARK_Maintenance_Lighting Electrical",
+        "share": 0.0278
+      },
+      {
+        "queue": "PARK_Tree Emergencies",
+        "share": 0.0222
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0222
+      },
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.0167
+      },
+      {
+        "queue": "PARK_New Tree Requests",
+        "share": 0.0167
+      },
+      {
+        "queue": "PARK_Maintenance_Region 6",
+        "share": 0.0167
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0167
+      },
+      {
+        "queue": "PWDx_Street Light_General Lighting Request",
+        "share": 0.0167
+      },
+      {
+        "queue": "BPD_Districts",
+        "share": 0.0167
+      },
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.0167
+      },
+      {
+        "queue": "INFO_Massport",
+        "share": 0.0111
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0111
+      },
+      {
+        "queue": "PARK_Urban_Wilds",
+        "share": 0.0111
+      },
+      {
+        "queue": "PARK_Maintenance_Horticulture",
+        "share": 0.0111
+      },
+      {
+        "queue": "ANML_General",
+        "share": 0.0111
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.0056
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0056
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0056
+      },
+      {
+        "queue": "ONS_JamaicaPlain",
+        "share": 0.0056
+      },
+      {
+        "queue": "PARK_Maintenance_Support Services",
+        "share": 0.0056
+      },
+      {
+        "queue": "PARK_Graffiti",
+        "share": 0.0056
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0056
+      },
+      {
+        "queue": "INFO_BPHC",
+        "share": 0.0056
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0056
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0056
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.0056
+      },
+      {
+        "queue": "PWDx_Empty Litter Basket",
+        "share": 0.0056
+      },
+      {
+        "queue": "PARK_Tree in Park",
+        "share": 0.0056
+      }
+    ],
+    "n_2024": 180,
+    "description": "There are issues or requests related to the parks that need attention.",
+    "example_titles": [
+      "Parks General Request",
+      "Weeds",
+      "Equipment Repair: Back Bay Fens",
+      "Equipment Repair: Franklin Park",
+      "Ground Maintenance: Public Garden"
+    ]
+  },
+  {
+    "type": "Maintenance - Homeowner",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.9006
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.0468
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0175
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0117
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0058
+      },
+      {
+        "queue": "ISD_Electrical",
+        "share": 0.0058
+      },
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.0058
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.0058
+      }
+    ],
+    "n_2024": 171,
+    "description": "My home needs maintenance or repairs.",
+    "example_titles": [
+      "Maintenance - Homeowner"
+    ]
+  },
+  {
+    "type": "Work Hours-Loud Noise Complaints",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Work Hours-Loud Noise Complaints",
+        "share": 0.7711
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0843
+      },
+      {
+        "queue": "PWDx_Roadway Repair_ARP_Resurfacing",
+        "share": 0.0301
+      },
+      {
+        "queue": "BTDT_Permits & Special Events",
+        "share": 0.0241
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.0181
+      },
+      {
+        "queue": "PWDx_Roadway Repair_Reconstruction",
+        "share": 0.0181
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.012
+      },
+      {
+        "queue": "BPD_Districts",
+        "share": 0.006
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.006
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.006
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.006
+      },
+      {
+        "queue": "INFO_Massport",
+        "share": 0.006
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.006
+      },
+      {
+        "queue": "PWDx_Engineering_PIC",
+        "share": 0.006
+      }
+    ],
+    "n_2024": 166,
+    "description": "There is loud noise coming from construction or maintenance work during the hours when it shouldn't be happening.",
+    "example_titles": [
+      "Work Hours-Loud Noise Complaints"
+    ]
+  },
+  {
+    "type": "General Traffic Engineering Request",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Engineering_New Sign and Pavement Marking Requests",
+        "share": 0.5854
+      },
+      {
+        "queue": "BTDT_General Comments",
+        "share": 0.2134
+      },
+      {
+        "queue": "BTDT_Engineering_Request for Traffic Signal Study or Review",
+        "share": 0.061
+      },
+      {
+        "queue": "BTDT_BostonBikes",
+        "share": 0.0305
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.0244
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.0122
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0122
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0122
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0061
+      },
+      {
+        "queue": "BTDT_Parking Lot_Municipal Parking Lot Complaints",
+        "share": 0.0061
+      },
+      {
+        "queue": "BTDT_Permits & Special Events",
+        "share": 0.0061
+      },
+      {
+        "queue": "BTDT_Traffic Signal_Repair",
+        "share": 0.0061
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0061
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0061
+      },
+      {
+        "queue": "ONS_MidDorchester",
+        "share": 0.0061
+      },
+      {
+        "queue": "PWDx_Engineering_Design",
+        "share": 0.0061
+      }
+    ],
+    "n_2024": 164,
+    "description": "I need help with a traffic issue in my area.",
+    "example_titles": [
+      "General Traffic Engineering Request"
+    ]
+  },
+  {
+    "type": "Space Savers",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.205
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.1739
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.1491
+      },
+      {
+        "queue": "PWDx_Space Saver Removal",
+        "share": 0.0745
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0621
+      },
+      {
+        "queue": "PWDx_District 1B: North End",
+        "share": 0.0559
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.0497
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.0435
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.0311
+      },
+      {
+        "queue": "PWDx_District 1A: Charlestown",
+        "share": 0.0248
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0186
+      },
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.0186
+      },
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.0186
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0124
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0124
+      },
+      {
+        "queue": "BTDT_Permits & Special Events",
+        "share": 0.0124
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0062
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0062
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0062
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0062
+      },
+      {
+        "queue": "BTDT_Parking Lot_PrivateParkingLotComplaints",
+        "share": 0.0062
+      },
+      {
+        "queue": "BHA_General",
+        "share": 0.0062
+      }
+    ],
+    "n_2024": 161,
+    "description": "Someone is using a space saver to reserve a parking spot.",
+    "example_titles": [
+      "Space Savers"
+    ]
+  },
+  {
+    "type": "Student Move-in Issues",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.5417
+      },
+      {
+        "queue": "INFO03_Mobile \"Other\" Requests",
+        "share": 0.2986
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0486
+      },
+      {
+        "queue": "BPD_Districts",
+        "share": 0.0139
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.0139
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0139
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.0139
+      },
+      {
+        "queue": "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item",
+        "share": 0.0139
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0069
+      },
+      {
+        "queue": "INFO_Encampments",
+        "share": 0.0069
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0069
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0069
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.0069
+      },
+      {
+        "queue": "PWDx_WM_Mattress_Pickup",
+        "share": 0.0069
+      }
+    ],
+    "n_2024": 144,
+    "description": "Students are having problems moving into their new homes.",
+    "example_titles": [
+      "Student Move-in Issues"
+    ]
+  },
+  {
+    "type": "Pavement Marking Inspection",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.8029
+      },
+      {
+        "queue": "BTDT_District 06",
+        "share": 0.0511
+      },
+      {
+        "queue": "BTDT_District 02",
+        "share": 0.0292
+      },
+      {
+        "queue": "BTDT_District 03",
+        "share": 0.0219
+      },
+      {
+        "queue": "BTDT_District 05",
+        "share": 0.0146
+      },
+      {
+        "queue": "BTDT_Engineering_New Sign and Pavement Marking Requests",
+        "share": 0.0146
+      },
+      {
+        "queue": "BTDT_Engineering_Request for Traffic Signal Study or Review",
+        "share": 0.0073
+      },
+      {
+        "queue": "BTDT_Sign Repair",
+        "share": 0.0073
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0073
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0073
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0073
+      },
+      {
+        "queue": "PARK_Maintenance_Ground Maintenance",
+        "share": 0.0073
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0073
+      },
+      {
+        "queue": "PWDx_Roadway Repair_ARP_Resurfacing",
+        "share": 0.0073
+      },
+      {
+        "queue": "PWDx_Roadway Repair_Reconstruction",
+        "share": 0.0073
+      }
+    ],
+    "n_2024": 137,
+    "description": "The pavement markings on the road need to be checked for visibility and condition.",
+    "example_titles": [
+      "Pavement Marking Inspection"
+    ]
+  },
+  {
+    "type": "Food Alert - Unconfirmed",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 136,
+    "description": "There are potential health risks due to unconfirmed food safety issues.",
+    "example_titles": [
+      "Food Alert - Unconfirmed",
+      "Unsanitary Conditions - Food",
+      "Unsanitary Condition Food"
+    ]
+  },
+  {
+    "type": "Illegal Posting of Signs",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.8226
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.0323
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.0161
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0161
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0161
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.0081
+      },
+      {
+        "queue": "PWDx_Roadway Repair_Reconstruction",
+        "share": 0.0081
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0081
+      },
+      {
+        "queue": "PARK_Maintenance_Region 3",
+        "share": 0.0081
+      },
+      {
+        "queue": "ONS_General",
+        "share": 0.0081
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.0081
+      },
+      {
+        "queue": "BTDT_OPC_Walk-In Service",
+        "share": 0.0081
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0081
+      },
+      {
+        "queue": "INFO_Low Hanging Wire",
+        "share": 0.0081
+      },
+      {
+        "queue": "BTDT_Traffic Signal_Repair",
+        "share": 0.0081
+      },
+      {
+        "queue": "BTDT_Permits & Special Events",
+        "share": 0.0081
+      },
+      {
+        "queue": "PWDx_STRL Pole Compliance",
+        "share": 0.0081
+      }
+    ],
+    "n_2024": 124,
+    "description": "There are signs posted illegally in my neighborhood.",
+    "example_titles": [
+      "Illegal Posting of Signs"
+    ]
+  },
+  {
+    "type": "Exceeding Terms of Permit",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.8974
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0342
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0171
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0085
+      },
+      {
+        "queue": "BTDT_Permits & Special Events",
+        "share": 0.0085
+      },
+      {
+        "queue": "ISD_Electrical",
+        "share": 0.0085
+      },
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.0085
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.0085
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0085
+      }
+    ],
+    "n_2024": 117,
+    "description": "A construction project is not following the rules set in its permit.",
+    "example_titles": [
+      "Exceeding Terms of Permit"
+    ]
+  },
+  {
+    "type": "Illegal Occupancy",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.7949
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.1624
+      },
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.0256
+      },
+      {
+        "queue": "INFO_Homeless Issue",
+        "share": 0.0085
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.0085
+      }
+    ],
+    "n_2024": 117,
+    "description": "Someone is living in a building without proper authorization or permits.",
+    "example_titles": [
+      "Illegal Occupancy"
+    ]
+  },
+  {
+    "type": "Request for Litter Basket Installation",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Request for Litter Basket Installation",
+        "share": 0.9143
+      },
+      {
+        "queue": "PARK_Maintenance_Region 1",
+        "share": 0.0286
+      },
+      {
+        "queue": "PARK_Maintenance_Region 6",
+        "share": 0.0286
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0095
+      },
+      {
+        "queue": "PARK_Maintenance_Region 2",
+        "share": 0.0095
+      },
+      {
+        "queue": "PARK_Maintenance_Region 4",
+        "share": 0.0095
+      }
+    ],
+    "n_2024": 105,
+    "description": "There are no litter baskets in my area and I need one installed.",
+    "example_titles": [
+      "Request for Litter Basket Installation"
+    ]
+  },
+  {
+    "type": "Illegal Rooming House",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.8235
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.1765
+      }
+    ],
+    "n_2024": 102,
+    "description": "There is an illegal rooming house operating in my neighborhood.",
+    "example_titles": [
+      "Illegal Rooming House"
+    ]
+  },
+  {
+    "type": "Animal Noise Disturbances",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 99,
+    "description": "There is a loud animal making noise that is disturbing my peace.",
+    "example_titles": [
+      "Animal Noise Disturbances"
+    ]
+  },
+  {
+    "type": "Knockdown Replacement",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Street Light Knockdown Replacement",
+        "share": 0.898
+      },
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.051
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.0102
+      },
+      {
+        "queue": "BTDT_District 02",
+        "share": 0.0102
+      },
+      {
+        "queue": "BTDT_Sign Repair",
+        "share": 0.0102
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0102
+      },
+      {
+        "queue": "PWDx_Street Light Knock Downs",
+        "share": 0.0102
+      }
+    ],
+    "n_2024": 98,
+    "description": "A street light has been knocked down and needs to be replaced.",
+    "example_titles": [
+      "Knockdown Replacement",
+      "Knockdown Wooden DCR Light Post",
+      "Printed - Street Light Knockdown 24' Post",
+      "Printed : Knockdown Replacement/EH",
+      "Printed: Knockdown Replacement/EH"
+    ]
+  },
+  {
+    "type": "Cross Metering - Sub-Metering",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 97,
+    "description": "I need help with cross metering for sub-metering in my building.",
+    "example_titles": [
+      "Cross Metering - Sub-Metering"
+    ]
+  },
+  {
+    "type": "Overflowing or Un-kept Dumpster",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.7368
+      },
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.2526
+      },
+      {
+        "queue": "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item",
+        "share": 0.0105
+      }
+    ],
+    "n_2024": 95,
+    "description": "The dumpster is overflowing or not being kept clean.",
+    "example_titles": [
+      "Overflowing or Un-kept Dumpster"
+    ]
+  },
+  {
+    "type": "Automotive Noise Disturbance",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 88,
+    "description": "There is loud noise coming from vehicles that is disturbing the peace.",
+    "example_titles": [
+      "Automotive Noise Disturbance"
+    ]
+  },
+  {
+    "type": "BWSC Pothole",
+    "department": "BWSC",
+    "queues": [
+      {
+        "queue": "BWSC_Pothole",
+        "share": 0.988
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.012
+      }
+    ],
+    "n_2024": 83,
+    "description": "There is a pothole on the street that needs to be repaired.",
+    "example_titles": [
+      "BWSC Pothole"
+    ]
+  },
+  {
+    "type": "Egress",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.9125
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.05
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.025
+      },
+      {
+        "queue": "PWDx_Contractor Complaints",
+        "share": 0.0125
+      }
+    ],
+    "n_2024": 80,
+    "description": "There is a problem with the exit routes in the building.",
+    "example_titles": [
+      "Egress"
+    ]
+  },
+  {
+    "type": "Abandoned Building",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.425
+      },
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.3875
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.1
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.05
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.025
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0125
+      }
+    ],
+    "n_2024": 80,
+    "description": "There is a building that has been left empty and is not being maintained.",
+    "example_titles": [
+      "Abandoned Building"
+    ]
+  },
+  {
+    "type": "Litter Basket Maintenance",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Litter Basket Maintenance",
+        "share": 0.825
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0625
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.025
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0125
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0125
+      },
+      {
+        "queue": "ONS_BackBay_Fenway_MissionHill",
+        "share": 0.0125
+      },
+      {
+        "queue": "PARK_Maintenance_Ground Maintenance",
+        "share": 0.0125
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0125
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.0125
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.0125
+      }
+    ],
+    "n_2024": 80,
+    "description": "The litter basket is full and needs to be emptied.",
+    "example_titles": [
+      "Litter Basket Maintenance"
+    ]
+  },
+  {
+    "type": "Bed Bugs",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 78,
+    "description": "I have a bed bug infestation in my home.",
+    "example_titles": [
+      "Bed Bugs",
+      "Bed Bugs and roaches in the common area"
+    ]
+  },
+  {
+    "type": "Squalid Living Conditions",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.9342
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0263
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0132
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.0132
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0132
+      }
+    ],
+    "n_2024": 76,
+    "description": "The living conditions in my home are filthy and unsafe.",
+    "example_titles": [
+      "Squalid Living Conditions"
+    ]
+  },
+  {
+    "type": "No Utilities Residential - Water",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.9474
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0395
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0132
+      }
+    ],
+    "n_2024": 76,
+    "description": "My home has no water service.",
+    "example_titles": [
+      "No Utilities Residential - Water"
+    ]
+  },
+  {
+    "type": "Undefined Noise Disturbance",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 71,
+    "description": "There is a loud noise coming from somewhere nearby that is disturbing me.",
+    "example_titles": [
+      "Generic Noise Disturbance"
+    ]
+  },
+  {
+    "type": "No-Tow Complaint Confirmation",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 0.2121
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.1212
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.1061
+      },
+      {
+        "queue": "PWDx_District 09: East Boston",
+        "share": 0.0758
+      },
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.0606
+      },
+      {
+        "queue": "PWDx_District 1A: Charlestown",
+        "share": 0.0606
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0606
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0455
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0455
+      },
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.0303
+      },
+      {
+        "queue": "BTDT_Engineering_New Sign and Pavement Marking Requests",
+        "share": 0.0303
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0303
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0303
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.0303
+      },
+      {
+        "queue": "PARK_Tree Maintenance Request",
+        "share": 0.0152
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0152
+      },
+      {
+        "queue": "PWDx_District 1B: North End",
+        "share": 0.0152
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.0152
+      }
+    ],
+    "n_2024": 66,
+    "description": "I want to confirm that my no-tow complaint has been received.",
+    "example_titles": [
+      "No-Tow Complaint Confirmation"
+    ]
+  },
+  {
+    "type": "Trash on Vacant Lot",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.6667
+      },
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.1667
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0455
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0303
+      },
+      {
+        "queue": "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item",
+        "share": 0.0303
+      },
+      {
+        "queue": "DND_General",
+        "share": 0.0152
+      },
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.0152
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.0152
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.0152
+      }
+    ],
+    "n_2024": 66,
+    "description": "There is trash accumulating on an empty lot nearby.",
+    "example_titles": [
+      "Trash on Vacant Lot"
+    ]
+  },
+  {
+    "type": "Plumbing",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Plumbing",
+        "share": 0.9153
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.0508
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0169
+      },
+      {
+        "queue": "ISD_Electrical",
+        "share": 0.0169
+      }
+    ],
+    "n_2024": 59,
+    "description": "There is a plumbing issue in my building that needs attention.",
+    "example_titles": [
+      "Plumbing"
+    ]
+  },
+  {
+    "type": "Tree in Park",
+    "department": "PARK",
+    "queues": [
+      {
+        "queue": "PARK_Tree in Park",
+        "share": 0.7241
+      },
+      {
+        "queue": "PARK_Tree Emergencies",
+        "share": 0.2241
+      },
+      {
+        "queue": "PARK_Cemetery Maintenance Request",
+        "share": 0.0345
+      },
+      {
+        "queue": "INFO_Mass DCR",
+        "share": 0.0172
+      }
+    ],
+    "n_2024": 58,
+    "description": "There is a tree in the park that needs attention.",
+    "example_titles": [
+      "Tree in Park",
+      "Tree In Park: Byrne Playground; Dorchester",
+      "Tree In Park: Ringer Playground; Allston / Brighton",
+      "Tree In Park: Franklin Park; Jamaica Plain",
+      "Tree In Park: Rogers Park; Allston / Brighton"
+    ]
+  },
+  {
+    "type": "No Utilities Residential - Electricity",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.9608
+      },
+      {
+        "queue": "ISD_Electrical",
+        "share": 0.0392
+      }
+    ],
+    "n_2024": 51,
+    "description": "My home has no electricity and I need help getting it restored.",
+    "example_titles": [
+      "No Utilities Residential - Electricity"
+    ]
+  },
+  {
+    "type": "Notification",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.6667
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.2
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.0667
+      },
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 0.0444
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0222
+      }
+    ],
+    "n_2024": 45,
+    "description": "There is a problem with a water main break or a sewer overflow in my area.",
+    "example_titles": [
+      "Sanitary Sewer Overflow",
+      "Water Main Break",
+      "Water Main Shutoff",
+      "Fire",
+      "Fire: Other"
+    ]
+  },
+  {
+    "type": "Unsanitary Conditions - Employees",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 42,
+    "description": "There are unsanitary conditions affecting employees in the workplace.",
+    "example_titles": [
+      "Unsanitary Conditions - Employees"
+    ]
+  },
+  {
+    "type": "Sewage/Septic Back-Up",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.85
+      },
+      {
+        "queue": "BWSC_All Cases",
+        "share": 0.075
+      },
+      {
+        "queue": "ISD_Plumbing",
+        "share": 0.05
+      },
+      {
+        "queue": "ISD_Administrative",
+        "share": 0.025
+      }
+    ],
+    "n_2024": 40,
+    "description": "My sewage or septic system is backing up and causing a mess in my home.",
+    "example_titles": [
+      "Sewage/Septic Back-Up"
+    ]
+  },
+  {
+    "type": "StreetLight Pole WO",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Highway Construction General",
+        "share": 0.6667
+      },
+      {
+        "queue": "PWDx_Street Light_General Lighting Request",
+        "share": 0.2564
+      },
+      {
+        "queue": "INFO_Low Hanging Wire",
+        "share": 0.0256
+      },
+      {
+        "queue": "PWDx_Highway Construction",
+        "share": 0.0256
+      },
+      {
+        "queue": "PWDx_Street Light Outages - Long-Term Repair",
+        "share": 0.0256
+      }
+    ],
+    "n_2024": 39,
+    "description": "The street light pole is damaged or needs maintenance.",
+    "example_titles": [
+      "Street Light Pole WO",
+      "CONCRETE",
+      "BRICKS"
+    ]
+  },
+  {
+    "type": "Bicycle Issues",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_BostonBikes",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 36,
+    "description": "There are issues with bike lanes, bike racks, or general bike-related problems in the area.",
+    "example_titles": [
+      "Boston Bikes: Bikes - General; Complaint",
+      "Boston Bikes",
+      "Boston Bikes: Bikes - General; Crime",
+      "Boston Bikes: Bike Lanes; Complaint",
+      "Boston Bikes: Bike Racks; Complaint"
+    ]
+  },
+  {
+    "type": "Request for Snow Plowing (Emergency Responder)",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 0.1515
+      },
+      {
+        "queue": "PWDx_District 08: Hyde Park",
+        "share": 0.1212
+      },
+      {
+        "queue": "PWDx_District 02: Jamaica Plain",
+        "share": 0.0909
+      },
+      {
+        "queue": "PWDx_District 05: South Boston",
+        "share": 0.0909
+      },
+      {
+        "queue": "PWDx_District 10A: Roxbury",
+        "share": 0.0909
+      },
+      {
+        "queue": "PWDx_District 10B: Roxbury",
+        "share": 0.0909
+      },
+      {
+        "queue": "PWDx_District 1C: Downtown",
+        "share": 0.0909
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0606
+      },
+      {
+        "queue": "PWDx_District 07: South Dorchester",
+        "share": 0.0606
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.0303
+      },
+      {
+        "queue": "PWDx_District 04: Allston/Brighton",
+        "share": 0.0303
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0303
+      },
+      {
+        "queue": "PWDx_District 1B: North End",
+        "share": 0.0303
+      },
+      {
+        "queue": "PWDx_Requests for Snow Plowing (Emergency Responder)",
+        "share": 0.0303
+      }
+    ],
+    "n_2024": 33,
+    "description": "The street needs to be plowed because of heavy snow accumulation.",
+    "example_titles": [
+      "Request for Snow Plowing"
+    ]
+  },
+  {
+    "type": "Fire in Food Establishment",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 0.9375
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0625
+      }
+    ],
+    "n_2024": 32,
+    "description": "There is a fire in a restaurant or food business.",
+    "example_titles": [
+      "Fire in Food Establishment"
+    ]
+  },
+  {
+    "type": "Zoning",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.9355
+      },
+      {
+        "queue": "BTDT_Administration",
+        "share": 0.0323
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0323
+      }
+    ],
+    "n_2024": 31,
+    "description": "I need information about zoning regulations for my property.",
+    "example_titles": [
+      "Zoning"
+    ]
+  },
+  {
+    "type": "Pole Compliance",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_STRL Pole Compliance",
+        "share": 0.9667
+      },
+      {
+        "queue": "PWDx_Street Light Knock Downs",
+        "share": 0.0333
+      }
+    ],
+    "n_2024": 30,
+    "description": "The street light pole is not compliant with regulations.",
+    "example_titles": [
+      "Pole Compliance"
+    ]
+  },
+  {
+    "type": "Cemetery Maintenance Request",
+    "department": "PARK",
+    "queues": [
+      {
+        "queue": "PARK_Cemetery Maintenance Request",
+        "share": 0.9667
+      },
+      {
+        "queue": "PARK_Maintenance_Region 1",
+        "share": 0.0333
+      }
+    ],
+    "n_2024": 30,
+    "description": "The cemetery needs maintenance or repairs.",
+    "example_titles": [
+      "Cemetery Maintenance Request"
+    ]
+  },
+  {
+    "type": "Parking Meter Repairs",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Broken Meter Complaints",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 28,
+    "description": "A parking meter is broken or not working properly.",
+    "example_titles": [
+      "Parking Meter Repairs"
+    ]
+  },
+  {
+    "type": "Upgrade Existing Lighting",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Street Light_Upgrade Existing Lighting",
+        "share": 0.8519
+      },
+      {
+        "queue": "PWDx_Street Light Knockdown Replacement",
+        "share": 0.0741
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.037
+      },
+      {
+        "queue": "PWDx_Street Light Outages - Gas",
+        "share": 0.037
+      }
+    ],
+    "n_2024": 27,
+    "description": "The street lights are too dim and need to be brighter.",
+    "example_titles": [
+      "Upgrade Existing Lighting",
+      "Inspect Dim Lights",
+      "Upgrade Existing Lighting//requesting brighter lighting//"
+    ]
+  },
+  {
+    "type": "Rooftop & Mechanical Disturbances",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.9615
+      },
+      {
+        "queue": "INFO_BPHC",
+        "share": 0.0385
+      }
+    ],
+    "n_2024": 26,
+    "description": "There are loud noises coming from rooftop equipment or mechanical systems.",
+    "example_titles": [
+      "Rooftop & Mechanical Disturbances"
+    ]
+  },
+  {
+    "type": "Overcrowding",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.8261
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.1739
+      }
+    ],
+    "n_2024": 23,
+    "description": "There are too many people living in one apartment or house.",
+    "example_titles": [
+      "Overcrowding"
+    ]
+  },
+  {
+    "type": "Rat Bite",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.9565
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.0435
+      }
+    ],
+    "n_2024": 23,
+    "description": "I was bitten by a rat.",
+    "example_titles": [
+      "Rat Bite"
+    ]
+  },
+  {
+    "type": "Sidewalk Repair",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Highway Construction",
+        "share": 0.6364
+      },
+      {
+        "queue": "PWDx_Sidewalk Repair",
+        "share": 0.3182
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0455
+      }
+    ],
+    "n_2024": 22,
+    "description": "The sidewalk is damaged and needs repair.",
+    "example_titles": [
+      "Sidewalk Repair"
+    ]
+  },
+  {
+    "type": "Install New Lighting",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Street Light_Install New Lighting",
+        "share": 0.9048
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0476
+      },
+      {
+        "queue": "PWDx_Street Light Knockdown Replacement",
+        "share": 0.0476
+      }
+    ],
+    "n_2024": 21,
+    "description": "The street lights are not working and need to be replaced or installed.",
+    "example_titles": [
+      "Install New Lighting"
+    ]
+  },
+  {
+    "type": "Pigeon Infestation",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.4286
+      },
+      {
+        "queue": "INFO_BPHC",
+        "share": 0.3333
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.0952
+      },
+      {
+        "queue": "ANML_General",
+        "share": 0.0476
+      },
+      {
+        "queue": "INFO_Unsheltered_Persons",
+        "share": 0.0476
+      },
+      {
+        "queue": "PWDx_Highway Construction",
+        "share": 0.0476
+      }
+    ],
+    "n_2024": 21,
+    "description": "There are too many pigeons in my area causing a nuisance.",
+    "example_titles": [
+      "Pigeon Infestation"
+    ]
+  },
+  {
+    "type": "Poor Ventilation",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.95
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.05
+      }
+    ],
+    "n_2024": 20,
+    "description": "The air in my home is stuffy and not circulating properly.",
+    "example_titles": [
+      "Poor Ventilation"
+    ]
+  },
+  {
+    "type": "Roadway Flooding",
+    "department": "BWSC",
+    "queues": [
+      {
+        "queue": "BWSC_All Cases",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 17,
+    "description": "Water is pooling on the road and causing flooding.",
+    "example_titles": [
+      "Roadway Flooding"
+    ]
+  },
+  {
+    "type": "Dumpster & Loading Noise Disturbances",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 16,
+    "description": "There is loud noise from dumpsters or loading activities that is disturbing the neighborhood.",
+    "example_titles": [
+      "Dumpster & Loading Noise Disturbances"
+    ]
+  },
+  {
+    "type": "Municipal Parking Lot Complaints",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Parking Lot_Municipal Parking Lot Complaints",
+        "share": 0.625
+      },
+      {
+        "queue": "BTDT_Parking Enforcement",
+        "share": 0.25
+      },
+      {
+        "queue": "DISB_HP Sign",
+        "share": 0.0625
+      },
+      {
+        "queue": "PWDx_Street Light_Upgrade Existing Lighting",
+        "share": 0.0625
+      }
+    ],
+    "n_2024": 16,
+    "description": "There are issues with the municipal parking lot.",
+    "example_titles": [
+      "Municipal Parking Lot Complaints"
+    ]
+  },
+  {
+    "type": "Scanning Overcharge",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Weights and Measures (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 15,
+    "description": "I was charged too much at the register because the scanner price was wrong.",
+    "example_titles": [
+      "Scanning Overcharge"
+    ]
+  },
+  {
+    "type": "Mosquitoes (West Nile)",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "ISD_Environmental Services (INTERNAL)",
+        "share": 0.4
+      },
+      {
+        "queue": "INFO_BPHC",
+        "share": 0.3333
+      },
+      {
+        "queue": "INFO_Reallocation From Dept",
+        "share": 0.1333
+      },
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.0667
+      },
+      {
+        "queue": "PWDx_Code Enforcement",
+        "share": 0.0667
+      }
+    ],
+    "n_2024": 15,
+    "description": "There are mosquitoes in my area that may carry West Nile virus.",
+    "example_titles": [
+      "Mosquitoes (West Nile)"
+    ]
+  },
+  {
+    "type": "City/State Snow Issues",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.8667
+      },
+      {
+        "queue": "INFO_MBTA",
+        "share": 0.0667
+      },
+      {
+        "queue": "PWDx_District 06: West Roxbury and Roslindale",
+        "share": 0.0667
+      }
+    ],
+    "n_2024": 15,
+    "description": "There are problems with snow removal or snow-related issues in the city.",
+    "example_titles": [
+      "City/State Snow Issues"
+    ]
+  },
+  {
+    "type": "Misc. Snow Complaint",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Snow Cases",
+        "share": 0.9333
+      },
+      {
+        "queue": "PARK_Maintenance_Ground Maintenance",
+        "share": 0.0667
+      }
+    ],
+    "n_2024": 15,
+    "description": "There is an issue related to snow that needs to be addressed.",
+    "example_titles": [
+      "Misc. Snow Complaint"
+    ]
+  },
+  {
+    "type": "No Utilities Residential - Gas",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 13,
+    "description": "My gas service has been shut off and I have no utilities.",
+    "example_titles": [
+      "No Utilities Residential - Gas"
+    ]
+  },
+  {
+    "type": "Bridge Maintenance",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Bridge Maintenance",
+        "share": 0.9231
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.0769
+      }
+    ],
+    "n_2024": 13,
+    "description": "The bridge needs maintenance or repairs.",
+    "example_titles": [
+      "Bridge Maintenance"
+    ]
+  },
+  {
+    "type": "Billing Complaint",
+    "department": "BWSC",
+    "queues": [
+      {
+        "queue": "BWSC_All Cases",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 12,
+    "description": "I have a problem with my water bill or charges.",
+    "example_titles": [
+      "Billing Complaint"
+    ]
+  },
+  {
+    "type": "Rental Unit Delivery Conditions",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 12,
+    "description": "The delivery conditions of my rental unit are not acceptable or need attention.",
+    "example_titles": [
+      "Rental Unit Delivery Conditions"
+    ]
+  },
+  {
+    "type": "Planting",
+    "department": "PARK",
+    "queues": [
+      {
+        "queue": "PARK_Maintenance_Horticulture",
+        "share": 0.8
+      },
+      {
+        "queue": "PARK_Maintenance_Region 3",
+        "share": 0.1
+      },
+      {
+        "queue": "PARK_New Tree Requests",
+        "share": 0.1
+      }
+    ],
+    "n_2024": 10,
+    "description": "New plants or trees need to be added to a park or public space.",
+    "example_titles": [
+      "Planting",
+      "Planting: Back Bay Fens",
+      "Planting: Cedar Square Park",
+      "Planting: Christopher Columbus Park",
+      "Planting: Healy Playground"
+    ]
+  },
+  {
+    "type": "Aircraft Noise Disturbance",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 10,
+    "description": "I am being disturbed by loud aircraft noise.",
+    "example_titles": [
+      "Aircraft Noise Disturbance"
+    ]
+  },
+  {
+    "type": "Mechanical",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 0.8889
+      },
+      {
+        "queue": "ISD_Plumbing",
+        "share": 0.1111
+      }
+    ],
+    "n_2024": 9,
+    "description": "There is an issue with the mechanical systems in my building.",
+    "example_titles": [
+      "Mechanical"
+    ]
+  },
+  {
+    "type": "Occupying W/Out A Valid CO/CI",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Building (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 9,
+    "description": "A building is being used without the necessary occupancy permit.",
+    "example_titles": [
+      "Occupying W/Out A Valid CO/CI"
+    ]
+  },
+  {
+    "type": "Unit Pricing Wrong/Missing",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Weights and Measures (INTERNAL)",
+        "share": 0.875
+      },
+      {
+        "queue": "INFO01_GenericeFormforOtherServiceRequestTypes",
+        "share": 0.125
+      }
+    ],
+    "n_2024": 8,
+    "description": "The price per unit is incorrect or not displayed on the product.",
+    "example_titles": [
+      "Unit Pricing Wrong/Missing"
+    ]
+  },
+  {
+    "type": "Phone Bank Service Inquiry",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_OPC_Phone Bank Service",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 8,
+    "description": "I have a question about the phone bank service for parking inquiries.",
+    "example_titles": [
+      "Phone Bank Service Inquiry"
+    ]
+  },
+  {
+    "type": "No Utilities - Food Establishment - Water",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 7,
+    "description": "A food establishment has no water supply.",
+    "example_titles": [
+      "No Utilities - Food Establishment - Water"
+    ]
+  },
+  {
+    "type": "Item Price Missing",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Weights and Measures (INTERNAL)",
+        "share": 0.8571
+      },
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 0.1429
+      }
+    ],
+    "n_2024": 7,
+    "description": "An item in the store doesn't have a price tag on it.",
+    "example_titles": [
+      "Item Price Missing"
+    ]
+  },
+  {
+    "type": "Valet Parking Problems",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Parking Lot_Valet Parking Problems",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 7,
+    "description": "There are issues with the valet parking service in my area.",
+    "example_titles": [
+      "Valet Parking Problems"
+    ]
+  },
+  {
+    "type": "Requests for Directional or Roadway Changes",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Engineering_Request for Traffic Signal Study or Review",
+        "share": 0.4286
+      },
+      {
+        "queue": "BTDT_Engineering_New Sign and Pavement Marking Requests",
+        "share": 0.2857
+      },
+      {
+        "queue": "BPD_Districts",
+        "share": 0.1429
+      },
+      {
+        "queue": "INFO_Mass DOT",
+        "share": 0.1429
+      }
+    ],
+    "n_2024": 7,
+    "description": "The road signs or directions are confusing or need to be changed.",
+    "example_titles": [
+      "Directional or Roadway Changes"
+    ]
+  },
+  {
+    "type": "No Price on Gas/Wrong Price",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Weights and Measures (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 6,
+    "description": "The gas station doesn't have a price displayed for fuel or the price shown is incorrect.",
+    "example_titles": [
+      "No Price on Gas",
+      "Wrong Price"
+    ]
+  },
+  {
+    "type": "Carbon Monoxide",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 6,
+    "description": "I smell gas or carbon monoxide in my home.",
+    "example_titles": [
+      "Carbon Monoxide"
+    ]
+  },
+  {
+    "type": "Pickup/Clear Conduit",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Street Light_Pickup_Clear Conduit",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 6,
+    "description": "There is a blockage in the conduit that needs to be cleared for street lights.",
+    "example_titles": [
+      "Pickup/Clear Conduit"
+    ]
+  },
+  {
+    "type": "Lead",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 5,
+    "description": "There is a concern about lead exposure in my home or building.",
+    "example_titles": [
+      "Lead"
+    ]
+  },
+  {
+    "type": "Private Parking Lot Complaints",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Parking Lot_PrivateParkingLotComplaints",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 5,
+    "description": "There is an issue with a private parking lot that is causing problems for residents.",
+    "example_titles": [
+      "Private Parking Lot Complaints"
+    ]
+  },
+  {
+    "type": "No Utilities - Food Establishment - Sewer",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 0.8
+      },
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 0.2
+      }
+    ],
+    "n_2024": 5,
+    "description": "A food establishment has no utilities or sewer service.",
+    "example_titles": [
+      "No Utilities - Food Establishment - Sewer"
+    ]
+  },
+  {
+    "type": "No Utilities - Food Establishment - Flood",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 4,
+    "description": "A food establishment has lost utilities due to flooding.",
+    "example_titles": [
+      "No Utilities - Food Establishment - Flood"
+    ]
+  },
+  {
+    "type": "Student Overcrowding",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Housing (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 3,
+    "description": "There are too many students in my child's classroom, making it overcrowded.",
+    "example_titles": [
+      "Student Overcrowding"
+    ]
+  },
+  {
+    "type": "Big Buildings Recycling (INTERNAL)",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_WM_Mattress_Pickup",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 3,
+    "description": "A large building needs help with its recycling program.",
+    "example_titles": [
+      "Big Buildings Recycling"
+    ]
+  },
+  {
+    "type": "Short Measure - Gas",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Weights and Measures (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 2,
+    "description": "There is an issue with the accuracy of the gas measurement at a station.",
+    "example_titles": [
+      "Short Measure - Gas"
+    ]
+  },
+  {
+    "type": "Capital Improvement Long Term",
+    "department": "PARK",
+    "queues": [
+      {
+        "queue": "PARK_Park Improvement Requests",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 2,
+    "description": "There is a need for long-term improvements to the park facilities or infrastructure.",
+    "example_titles": [
+      "Capital Improvement Long Term"
+    ]
+  },
+  {
+    "type": "Scale Not Visible",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Weights and Measures (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 2,
+    "description": "The scale at the store is not showing any measurements or readings.",
+    "example_titles": [
+      "Scale Not Visible"
+    ]
+  },
+  {
+    "type": "Walk-In Service Inquiry",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_OPC_Walk-In Service",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 2,
+    "description": "I have a question about parking services and need to speak to someone in person.",
+    "example_titles": [
+      "Walk-In Service Inquiry"
+    ]
+  },
+  {
+    "type": "Product Short Measure",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Weights and Measures (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 2,
+    "description": "A product I bought has less than the amount stated on the label.",
+    "example_titles": [
+      "Product Short Measure"
+    ]
+  },
+  {
+    "type": "No Utilities - Food Establishment - Electricity",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Health (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 2,
+    "description": "A food establishment is without electricity.",
+    "example_titles": [
+      "No Utilities - Food Establishment - Electricity"
+    ]
+  },
+  {
+    "type": "News Boxes",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_News Boxes",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 2,
+    "description": "There are news boxes that are improperly placed or in disrepair.",
+    "example_titles": [
+      "News Boxes"
+    ]
+  },
+  {
+    "type": "Snow/Ice Control",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_District 03: North Dorchester",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 1,
+    "description": "There is snow or ice that needs to be cleared from the streets.",
+    "example_titles": [
+      "Snow/Ice Control Internal"
+    ]
+  },
+  {
+    "type": "Water in Gas - High Priority",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Weights and Measures (INTERNAL)",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 1,
+    "description": "There is water in the gas line that needs urgent attention.",
+    "example_titles": [
+      "Water in Gas - High Priority"
+    ]
+  },
+  {
+    "type": "State/Cass Shelter Sites",
+    "department": "INFO",
+    "queues": [
+      {
+        "queue": "INFO_Unsheltered_Persons",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 1,
+    "description": "There is a shelter site for the homeless in the area.",
+    "example_titles": [
+      "MASS Shelter Site"
+    ]
+  },
+  {
+    "type": "Pavement Marking Maintenance",
+    "department": "BTDT",
+    "queues": [
+      {
+        "queue": "BTDT_Sign Shop_Sign Installation",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 1,
+    "description": "The pavement markings on the road are faded or missing.",
+    "example_titles": [
+      "Pavement Marking Maintenance"
+    ]
+  },
+  {
+    "type": "Follow-Up",
+    "department": "ISD",
+    "queues": [
+      {
+        "queue": "ISD_Administrative",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 1,
+    "description": "I need an update on my previous request.",
+    "example_titles": [
+      "ISD Follow-Up"
+    ]
+  },
+  {
+    "type": "Utility Call-In",
+    "department": "PWDx",
+    "queues": [
+      {
+        "queue": "PWDx_Utility Call-In",
+        "share": 1.0
+      }
+    ],
+    "n_2024": 1,
+    "description": "There is a utility issue that needs to be reported.",
+    "example_titles": [
+      "Utility Call-In"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "description": "There is a vehicle left abandoned on the street.",
+  "example_titles": [
+    "Abandoned Vehicles",
+    "Abandoned Vehicles: Scooter/Moped",
+    "Abandoned Vehicles: Motorcycle",
+    "Abandoned Vehicles: Multiple Vehicles",
+    "Abandoned Vehicles: RV/Trailer"
+  ]
+}

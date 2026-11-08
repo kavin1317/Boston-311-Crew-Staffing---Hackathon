@@ -1,0 +1,10 @@
+{
+  "description": "The street lights are not working properly or are completely out.",
+  "example_titles": [
+    "Major System Failure",
+    "Major System Failure printed",
+    "Major System Failure /Gas Leak",
+    "1 light dim",
+    "Major System Failure - Duplicate"
+  ]
+}

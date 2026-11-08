@@ -1,0 +1,73 @@
+department,neighborhood,requests,on_time_pct,median_days_to_close
+BTDT,West Roxbury,1678,36.5,4.2
+BTDT,Jamaica Plain,5566,39.2,3.0
+BTDT,Hyde Park,2027,39.4,4.3
+BTDT,Roslindale,2736,42.5,3.0
+BTDT,Charlestown,3541,42.6,1.5
+BTDT,Greater Mattapan,2049,44.6,3.5
+BTDT,Roxbury,5284,45.3,2.0
+BTDT,East Boston,6328,45.5,1.2
+BTDT,Mission Hill,1100,47.1,1.1
+BTDT,South End,4517,47.7,0.9
+BTDT,Dorchester,9418,48.6,1.7
+BTDT,Downtown / Financial District,4834,50.4,0.9
+BTDT,Back Bay,3100,51.1,0.8
+BTDT,Beacon Hill,1283,51.1,1.1
+BTDT,Fenway / Kenmore / Audubon Circle / Longwood,1969,53.4,0.9
+BTDT,Allston / Brighton,7547,55.1,0.8
+BTDT,Boston,4549,57.9,0.5
+BTDT,South Boston / South Boston Waterfront,13382,62.0,0.4
+ISD,Greater Mattapan,1107,64.0,4.1
+ISD,East Boston,1153,64.5,3.5
+ISD,Hyde Park,673,67.2,3.0
+ISD,Downtown / Financial District,813,69.7,2.8
+ISD,Fenway / Kenmore / Audubon Circle / Longwood,416,70.2,4.0
+ISD,Dorchester,3007,71.0,2.9
+ISD,Charlestown,500,71.2,4.0
+ISD,Roxbury,2134,71.3,3.8
+ISD,West Roxbury,531,71.9,2.8
+ISD,Roslindale,563,72.5,2.7
+ISD,South Boston / South Boston Waterfront,1238,73.1,2.3
+ISD,Beacon Hill,282,75.5,2.8
+ISD,Back Bay,710,76.2,2.5
+ISD,South End,943,76.4,2.6
+ISD,Boston,869,77.1,1.9
+ISD,Mission Hill,404,77.2,2.8
+ISD,Jamaica Plain,1166,77.6,2.9
+ISD,Allston / Brighton,2082,78.1,2.0
+PARK,Boston,1296,89.3,1.0
+PARK,Fenway / Kenmore / Audubon Circle / Longwood,337,89.9,1.7
+PARK,Jamaica Plain,1177,90.8,1.9
+PARK,Back Bay,428,91.1,2.1
+PARK,Charlestown,686,91.1,4.7
+PARK,Downtown / Financial District,519,91.5,1.0
+PARK,Roxbury,1649,92.6,1.1
+PARK,Beacon Hill,396,93.4,6.8
+PARK,Dorchester,2500,93.4,2.7
+PARK,East Boston,1503,93.4,2.8
+PARK,South End,1007,93.6,1.6
+PARK,Greater Mattapan,763,94.2,3.2
+PARK,Allston / Brighton,1356,94.8,2.6
+PARK,Hyde Park,706,95.6,12.4
+PARK,South Boston / South Boston Waterfront,1114,95.8,4.5
+PARK,Roslindale,921,96.1,4.8
+PARK,West Roxbury,1236,96.4,6.8
+PARK,Mission Hill,342,98.2,3.7
+PWDx,Charlestown,3909,80.4,0.5
+PWDx,Fenway / Kenmore / Audubon Circle / Longwood,1877,84.7,0.4
+PWDx,Boston,4125,86.0,0.1
+PWDx,Back Bay,8588,87.3,0.1
+PWDx,West Roxbury,5931,87.3,0.6
+PWDx,Jamaica Plain,9009,87.6,0.5
+PWDx,Downtown / Financial District,7939,87.8,0.1
+PWDx,Hyde Park,7571,88.7,0.6
+PWDx,Allston / Brighton,14770,89.3,0.3
+PWDx,Roslindale,5819,89.3,0.5
+PWDx,South Boston / South Boston Waterfront,9682,90.2,0.2
+PWDx,Roxbury,13626,90.5,0.2
+PWDx,South End,11300,90.5,0.1
+PWDx,Beacon Hill,7726,91.6,0.1
+PWDx,Greater Mattapan,8620,91.9,0.4
+PWDx,Dorchester,23895,92.0,0.3
+PWDx,Mission Hill,3051,92.1,0.2
+PWDx,East Boston,9633,92.6,0.3

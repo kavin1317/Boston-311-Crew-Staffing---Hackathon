@@ -1,19 +1,29 @@
-"""Request-type catalog (Person B).
+"""Request-type catalog.
 
-Step 2: build type routing from the raw 2024 311 data.
-For every request type in the four in-scope departments, record its most common
-department and queue plus each department's and queue's share of that type.
+Two outputs, both built from the raw 2024 311 data:
 
-Run:  python -m src.catalog
-Output: data/processed/type_routing.json
+1. type_routing.json (written first by Kavin): for each type in the four
+   in-scope departments, its main department and queue and their shares.
+   Run:  python -m src.catalog routing
+
+2. type_catalog.json (Step 4): all 170 types across every department, each
+   with queues, a plain-language description and example titles from the LLM.
+   Person B's intake assistant reads this file.
+   Run:  python -m src.catalog
 """
 from __future__ import annotations
 
+import hashlib
+import html
 import json
+import sys
 from pathlib import Path
 
 import duckdb
 import yaml
+from dotenv import load_dotenv
+from openai import OpenAI
+from pydantic import BaseModel
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data/raw/lagan_311_open_data_2024_rvsd3.csv"
@@ -65,7 +75,7 @@ def build_routing() -> list[dict]:
     return routing
 
 
-def main() -> None:
+def main_routing() -> None:
     routing = build_routing()
     OUT_ROUTING.parent.mkdir(parents=True, exist_ok=True)
     OUT_ROUTING.write_text(json.dumps(routing, indent=2))
@@ -81,5 +91,175 @@ def main() -> None:
           f"({sum(r['n_2024'] for r in mixed):,} requests)")
 
 
+# ---------------------------------------------------------------------------
+# Type catalog (Person A, Step 4)
+#
+# One entry for each of the 170 request types in the full 2024 file (all
+# departments). The intake assistant picks from this list, so each entry gets
+# a plain-language description written by the LLM, plus a few cleaned-up
+# example titles.
+#
+# Run:  python -m src.catalog            -> data/processed/type_catalog.json
+#       python -m src.catalog routing    -> the older type_routing.json
+# ---------------------------------------------------------------------------
+
+OUT_CATALOG = ROOT / "data/processed/type_catalog.json"
+CACHE_DIR = ROOT / CONFIG["llm"]["cache_dir"]
+MODEL = CONFIG["llm"]["model"]
+TEMPERATURE = CONFIG["llm"]["temperature"]
+
+TITLES_SHOWN = 25  # most common raw titles we show the model for each type
+
+
+class TypeInfo(BaseModel):
+    description: str
+    example_titles: list[str]
+
+
+SYSTEM_PROMPT = """You help build a catalog of City of Boston 311 request types.
+For one request type you get its name, the department that handles it, the
+city's category for it, and the most common titles staff typed on those
+requests (with counts). Use the category to understand short or coded type
+names.
+
+Return:
+- description: ONE plain sentence describing the concrete problem a resident
+  sees, the way they would say it, e.g. "A car is parked illegally or
+  blocking my driveway." Do not just repeat the type name. No department
+  names, no internal jargon.
+- example_titles: up to 5 short, clean titles, most common first. Copy them
+  from the list. You may remove internal codes and staff notes (things like
+  DISP, SCH 9/9, PRINTED, initials, dates, park codes like BPRD) and fix
+  capitals and spacing, but do not add words or invent new titles. Merge
+  near-duplicates. Leave out titles about a different problem than this type.
+  Fewer than 5 is fine."""
+
+
+def _type_stats(con):
+    """Department, queues and counts for every type in the full 2024 file."""
+    by_dept = con.execute(f"""
+        SELECT type, department, queue, reason, COUNT(*) AS n
+        FROM read_csv('{RAW}', all_varchar=true)
+        GROUP BY ALL
+    """).df()
+
+    titles = con.execute(f"""
+        WITH t AS (
+            SELECT type, case_title, COUNT(*) AS n
+            FROM read_csv('{RAW}', all_varchar=true)
+            WHERE case_title IS NOT NULL
+            GROUP BY type, case_title
+        )
+        SELECT * FROM t
+        QUALIFY row_number() OVER (PARTITION BY type ORDER BY n DESC, case_title) <= {TITLES_SHOWN}
+    """).df()
+    titles["case_title"] = titles["case_title"].map(lambda s: html.unescape(s).strip())
+    return by_dept, titles
+
+
+def _queue_list(g, total):
+    queues = g.groupby("queue").n.sum().sort_values(ascending=False)
+    return [
+        {"queue": q, "share": round(float(n / total), 4)}
+        for q, n in queues.items()
+        if n / total >= MIN_SHARE
+    ]
+
+
+def _prompt(type_, dept, category, titles):
+    lines = "\n".join(f"- {t} ({n})" for t, n in titles)
+    return (f"Request type: {type_}\nDepartment: {dept}\nCategory: {category}\n"
+            f"Most common titles:\n{lines}")
+
+
+def _squash(s):
+    return " ".join(s.lower().split())
+
+
+def _from_data(examples, raw_titles):
+    """Keep only example titles that actually appear inside a raw title.
+
+    The model is told not to invent titles, but this makes sure of it.
+    """
+    raw = [_squash(t) for t in raw_titles]
+    kept = []
+    for ex in examples:
+        if any(_squash(ex) in r for r in raw) and ex not in kept:
+            kept.append(ex)
+    return kept[:5]
+
+
+def ask_llm(prompt, client=None):
+    """Structured LLM call with a file cache.
+
+    The cache key is a hash of the model, temperature, system prompt and user
+    prompt, so a rerun with the same inputs reads the saved answer and makes
+    no API call.
+    """
+    key_text = json.dumps([MODEL, TEMPERATURE, SYSTEM_PROMPT, prompt])
+    key = hashlib.sha256(key_text.encode()).hexdigest()[:20]
+    path = CACHE_DIR / f"catalog_{key}.json"
+
+    if path.exists():
+        return TypeInfo.model_validate_json(path.read_text())
+
+    if client is None:
+        load_dotenv(ROOT / ".env")
+        client = OpenAI()
+
+    resp = client.chat.completions.parse(
+        model=MODEL,
+        temperature=TEMPERATURE,
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": prompt},
+        ],
+        response_format=TypeInfo,
+    )
+    info = resp.choices[0].message.parsed
+
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    path.write_text(info.model_dump_json(indent=2))
+    return info
+
+
+def build_catalog(limit=None):
+    con = duckdb.connect()
+    by_dept, titles = _type_stats(con)
+
+    sizes = by_dept.groupby("type").n.sum().sort_values(ascending=False)
+    if limit:
+        sizes = sizes.head(limit)
+
+    catalog = []
+    for type_, total in sizes.items():
+        g = by_dept[by_dept.type == type_]
+        dept = g.groupby("department").n.sum().idxmax()
+        category = g.groupby("reason").n.sum().idxmax()
+        t = titles[titles.type == type_]
+        top_titles = list(zip(t.case_title, t.n))
+
+        info = ask_llm(_prompt(type_, dept, category, top_titles))
+
+        catalog.append({
+            "type": type_,
+            "department": dept,
+            "queues": _queue_list(g, total),
+            "n_2024": int(total),
+            "description": info.description,
+            "example_titles": _from_data(info.example_titles, t.case_title),
+        })
+    return catalog
+
+
+def main_catalog():
+    catalog = build_catalog()
+    OUT_CATALOG.write_text(json.dumps(catalog, indent=2))
+    print(f"Wrote {len(catalog)} types to {OUT_CATALOG.relative_to(ROOT)}")
+
+
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1 and sys.argv[1] == "routing":
+        main_routing()
+    else:
+        main_catalog()
