@@ -1,0 +1,45 @@
+id,message,true_type,true_department,true_queue,acceptable_types,is_ambiguous,notes
+T01,"theres a huge pothole on centre st by the T, almost lost a tire this morning",Request for Pothole Repair,PWDx,PWDx_Roadway Repair_ARP_Resurfacing,Request for Pothole Repair,False,
+T02,"nobody picked up our recycling tuesday, whole side of Adams St got skipped again",Missed Trash/Recycling/Yard Waste/Bulk Item,PWDx,PWDx_Missed Trash\Recycling\Yard Waste\Bulk Item,Missed Trash/Recycling/Yard Waste/Bulk Item,False,
+T03,"got an old couch and a dresser i need gone, can somebody come grab them",Schedule a Bulk Item Pickup,PWDx,PWDx_Schedule a Bulk Item Pickup,Schedule a Bulk Item Pickup|Schedule a Bulk Item Pickup SS,False,Bulk pickup pair = same service
+T04,moving out saturday and need to get rid of a mattress + box spring,Mattress_Pickup,PWDx,PWDx_WM_Mattress_Pickup,Mattress_Pickup,False,
+T05,"dead raccoon in the middle of washington st near the gas station, been there 2 days",Pick up Dead Animal,PWDx,PWDx_District 04: Allston/Brighton,Pick up Dead Animal,False,
+T06,"light on the pole at dot ave and savin hill been out for a week, its pitch black walking home",Street Light Outages,PWDx,PWDx_Street Light Outages,Street Light Outages|General Lighting Request,False,Both lighting types are PWDx
+T07,someone dumped like 10 tires and a pile of drywall in the alley behind 45 hancock st,Illegal Dumping,PWDx,PWDx_Code Enforcement,Illegal Dumping,False,
+T08,"sidewalk in front of the library is all heaved up from tree roots, my mom tripped on it",Sidewalk Repair (Make Safe),PWDx,PWDx_Sidewalk Repair,Sidewalk Repair (Make Safe),False,
+T09,"neighbors leave there barrels on the sidewalk all week long, cant even get a stroller by",Improper Storage of Trash (Barrels),PWDx,PWDx_Code Enforcement,Improper Storage of Trash (Barrels),False,
+T10,"trash can at the bus stop on blue hill ave is overflowing, garbage blowing all over",Empty Litter Basket,PWDx,PWDx_District 1C: Downtown,Empty Litter Basket,False,
+T11,"our recycling bin got stolen last week, how do i get another one",Request for Recycling Cart,PWDx,PWDx_Recycling Sent to Contractor,Request for Recycling Cart,False,
+T12,"the corner store never shoveled in front, its a sheet of ice on tremont, people are slipping",Unshoveled Sidewalk,PWDx,PWDx_Code Enforcement,Unshoveled Sidewalk,False,
+T13,"florence st in roslindale STILL not plowed 2 days after the storm, cant get the car out",Request for Snow Plowing,PWDx,PWDx_District 07: South Dorchester,Request for Snow Plowing|Request for Snow Plowing (Emergency Responder),False,Snow plowing pair = same service
+T14,tons of spray paint tags all over the underpass wall on mass ave,PWD Graffiti,PWDx,PWDx_Graffiti,PWD Graffiti,False,
+T15,"gutters on beacon st full of broken glass and wet leaves, street needs a real sweep",Requests for Street Cleaning,PWDx,PWDx_District 1C: Downtown,Requests for Street Cleaning|CE Collection,False,CE Collection reads as the same thing in the catalog
+T16,"utility crew dug up our road last month, left gravel and a big uneven patch, nobody came back",Contractor Complaints,PWDx,PWDx_Contractor Complaints,Contractor Complaints|Roadway Repair,False,
+T17,"pothole right outside 12 boylston st, and the streetlight right above it is out too",Request for Pothole Repair,PWDx,PWDx_Roadway Repair_ARP_Resurfacing,Request for Pothole Repair|Street Light Outages,False,TWO PROBLEMS: pothole + street light (both PWDx)
+T18,"somebody parked across my driveway on tremont again, i cant get out for work",Parking Enforcement,BTDT,BTDT_Parking Enforcement,Parking Enforcement,False,
+T19,"grey honda no plates sitting on cummins hwy for 3 weeks, 2 flat tires, never moves",Abandoned Vehicles,BTDT,BTDT_AVRS Interface Queue,Abandoned Vehicles,False,
+T20,"stop sign at walk hill and wachusett is bent almost flat, you cant see it coming down the hill",Sign Repair,BTDT,BTDT_Sign Shop_Sign Installation,Sign Repair,False,
+T21,"light at mass ave and columbus is stuck on red, been like 10 min, cars running it",Traffic Signal Inspection,BTDT,BTDT_Traffic Signal_Repair,Traffic Signal Inspection|Traffic Signal Repair,False,Signal pair is near-identical
+T22,"we need a crosswalk painted outside the elementary school on dudley st, kids cross there every morning",New Sign  Crosswalk or Pavement Marking,BTDT,BTDT_Engineering_New Sign and Pavement Marking Requests,New Sign  Crosswalk or Pavement Marking,False,
+T23,"theres a bike chained to the rack on newbury for months, no wheels, all rusted",Abandoned Bicycle,BTDT,BTDT_Abandoned Bicycle,Abandoned Bicycle,False,
+T24,"the no parking sign on our block just disappeared, now everyone parks there",Missing Sign,BTDT,BTDT_Sign Shop_Sign Installation,Missing Sign|Sign Repair,False,
+T25,meter on hanover st took my quarters and still says expired,Parking Meter Repairs,BTDT,BTDT_Broken Meter Complaints,Parking Meter Repairs,False,
+T26,"cars fly thru the intersection at gallivan and morton, almost saw 2 crashes this week. can someone look at it",Requests for Traffic Signal Studies or Reviews,BTDT,BTDT_Engineering_Request for Traffic Signal Study or Review,Requests for Traffic Signal Studies or Reviews|General Traffic Engineering Request,False,
+T27,"van parked in the bike lane on comm ave every day, and the lane paint is so worn you can barely see it",Parking Enforcement,BTDT,BTDT_Parking Enforcement,Parking Enforcement|Pavement Marking Inspection,False,TWO PROBLEMS: parking + faded markings (both BTDT)
+T28,"huge branch hanging off the street tree out front, looks like its gonna land on someones car",Tree Maintenance Requests,PARK,PARK_Tree Maintenance Request,Tree Maintenance Requests|Tree Emergencies,False,
+T29,tree came down in last nights storm and its blocking all of centre st in jp,Tree Emergencies,PARK,PARK_Tree Emergencies,Tree Emergencies,False,
+T30,"swing at the playground in ringer park is broken, the chain snapped",Equipment Repair,PARK,PARK_Maintenance_Trades,Equipment Repair,False,
+T31,can the city plant a tree in front of my house? theres an empty square in the sidewalk,New Tree Requests,PARK,PARK_New Tree Requests,New Tree Requests,False,
+T32,grass on the ballfield at franklin park is knee high and theres trash all over the bleachers,Ground Maintenance,PARK,PARK_Maintenance_Region 1,Ground Maintenance,False,
+T33,"would love to see some benches and a water fountain added at ronan park, nowhere to sit",Park Improvement Requests,PARK,PARK_Park Improvement Requests,Park Improvement Requests,False,
+T34,rats everywhere in the yard and around the dumpster behind our building on bowdoin st,Rodent Activity,ISD,ISD_Environmental Services (INTERNAL),Rodent Activity,False,
+T35,"landlord still hasnt fixed the heat, its 52 degrees in my apartment and i have a baby",Heat - Excessive  Insufficient,ISD,ISD_Housing (INTERNAL),Heat - Excessive  Insufficient|Unsatisfactory Living Conditions,False,
+T36,"seeing mice in my kitchen every night, landlord keeps ignoring me",Pest Infestation - Residential,ISD,ISD_Environmental Services (INTERNAL),Pest Infestation - Residential|Mice Infestation - Residential,False,Pest/mice pair
+T37,guy next door is building a whole second floor and theres no permit posted anywhere,Work w/out Permit,ISD,ISD_Building (INTERNAL),Work w/out Permit,False,
+T38,construction site next door starts banging at 5am every day incl sundays,Working Beyond Hours,ISD,ISD_Building (INTERNAL),Working Beyond Hours,False,
+T39,"black mold growing on my bathroom ceiling, whole apt smells damp all the time",Chronic Dampness/Mold,ISD,ISD_Housing (INTERNAL),Chronic Dampness/Mold|Unsatisfactory Living Conditions,False,
+T40,theres a problem on my street can someone come look at it,,,,,True,No problem stated
+T41,the corner by my house is really dangerous,,,,,True,"Could be traffic, sidewalk, lighting or a tree"
+T42,something smells awful outside my building,,,,,True,"Could be trash, dead animal or sanitation"
+T43,something is wrong with the tree out front,,PARK,,,True,Maintenance vs emergency unclear
+T44,my landlord wont fix anything,,ISD,,,True,"Housing problem, type not stated"
