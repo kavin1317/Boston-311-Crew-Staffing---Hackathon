@@ -1,0 +1,10 @@
+{
+  "request_type": "Public Works General Request",
+  "alternatives": [
+    "Requests for Street Cleaning",
+    "Poor Conditions of Property"
+  ],
+  "confidence": "medium",
+  "needs_follow_up": true,
+  "follow_up_question": "What specific problem are you experiencing on your street?"
+}

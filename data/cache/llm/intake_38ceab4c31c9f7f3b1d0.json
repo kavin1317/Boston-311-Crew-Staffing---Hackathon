@@ -1,0 +1,10 @@
+{
+  "request_type": "Sign Repair",
+  "alternatives": [
+    "Missing Sign",
+    "Pavement Marking Inspection"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

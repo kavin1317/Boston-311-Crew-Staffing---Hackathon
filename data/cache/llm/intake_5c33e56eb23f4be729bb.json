@@ -1,0 +1,10 @@
+{
+  "request_type": "Parking Enforcement",
+  "alternatives": [
+    "General Traffic Engineering Request",
+    "Traffic Signal Repair"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

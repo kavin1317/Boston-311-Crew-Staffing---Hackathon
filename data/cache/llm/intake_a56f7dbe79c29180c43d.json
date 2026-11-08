@@ -1,0 +1,10 @@
+{
+  "request_type": "Request for Pothole Repair",
+  "alternatives": [
+    "Street Light Outages",
+    "Traffic Signal Repair"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

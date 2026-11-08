@@ -1,0 +1,10 @@
+{
+  "request_type": "Unsanitary Conditions - Establishment",
+  "alternatives": [
+    "Poor Conditions of Property",
+    "Squalid Living Conditions"
+  ],
+  "confidence": "medium",
+  "needs_follow_up": true,
+  "follow_up_question": "Can you tell me if the smell is coming from a specific source, like trash or a nearby business?"
+}

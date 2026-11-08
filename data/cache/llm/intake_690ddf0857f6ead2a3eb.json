@@ -1,0 +1,10 @@
+{
+  "request_type": "Tree Maintenance Requests",
+  "alternatives": [
+    "Tree Emergencies",
+    "New Tree Requests"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

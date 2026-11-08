@@ -1,0 +1,10 @@
+{
+  "request_type": "Request for Snow Plowing",
+  "alternatives": [
+    "City/State Snow Issues",
+    "Misc. Snow Complaint"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

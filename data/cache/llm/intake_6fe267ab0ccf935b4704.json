@@ -1,0 +1,10 @@
+{
+  "request_type": "Request for Recycling Cart",
+  "alternatives": [
+    "Recycling Cart Return",
+    "General Comments For A Program or Policy"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

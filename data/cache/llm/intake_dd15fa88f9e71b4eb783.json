@@ -1,0 +1,10 @@
+{
+  "request_type": "Work w/out Permit",
+  "alternatives": [
+    "Building Inspection Request",
+    "Protection of Adjoining Property"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

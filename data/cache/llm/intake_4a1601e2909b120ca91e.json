@@ -1,0 +1,10 @@
+{
+  "request_type": "Requests for Street Cleaning",
+  "alternatives": [
+    "Illegal Dumping",
+    "Overflowing or Un-kept Dumpster"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

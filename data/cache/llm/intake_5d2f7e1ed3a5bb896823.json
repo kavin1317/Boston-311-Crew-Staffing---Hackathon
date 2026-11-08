@@ -1,0 +1,10 @@
+{
+  "request_type": "Graffiti Removal",
+  "alternatives": [
+    "PWD Graffiti",
+    "Traffic Signal Repair"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

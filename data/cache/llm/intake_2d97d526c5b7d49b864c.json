@@ -1,0 +1,10 @@
+{
+  "request_type": "Unsanitary Conditions - Employees",
+  "alternatives": [
+    "Sewage/Septic Back-Up",
+    "Unsafe Dangerous Conditions"
+  ],
+  "confidence": "medium",
+  "needs_follow_up": true,
+  "follow_up_question": "Can you tell me if the smell is coming from a specific source, like trash or sewage?"
+}

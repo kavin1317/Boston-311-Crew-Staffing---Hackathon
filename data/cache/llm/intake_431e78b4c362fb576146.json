@@ -1,0 +1,10 @@
+{
+  "request_type": "Transportation General Request",
+  "alternatives": [
+    "Building Inspection Request",
+    "Request for Pothole Repair"
+  ],
+  "confidence": "low",
+  "needs_follow_up": true,
+  "follow_up_question": "What specific problem are you experiencing on your street?"
+}

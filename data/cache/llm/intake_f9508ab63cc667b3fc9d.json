@@ -1,0 +1,10 @@
+{
+  "request_type": "Schedule a Bulk Item Pickup",
+  "alternatives": [
+    "Mattress_Pickup",
+    "Schedule a Bulk Item Pickup SS"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

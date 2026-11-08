@@ -1,0 +1,10 @@
+{
+  "request_type": "Parking Meter Repairs",
+  "alternatives": [
+    "Municipal Parking Lot Complaints",
+    "Parking Enforcement"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

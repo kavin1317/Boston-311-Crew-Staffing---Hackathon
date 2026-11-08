@@ -1,0 +1,10 @@
+{
+  "request_type": "Requests for Traffic Signal Studies or Reviews",
+  "alternatives": [
+    "Unsafe Dangerous Conditions",
+    "Sidewalk Repair"
+  ],
+  "confidence": "medium",
+  "needs_follow_up": true,
+  "follow_up_question": "Can you describe what makes the corner dangerous?"
+}

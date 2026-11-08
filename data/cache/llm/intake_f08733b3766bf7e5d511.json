@@ -1,0 +1,10 @@
+{
+  "request_type": "Tree Emergencies",
+  "alternatives": [
+    "Request for Pothole Repair",
+    "Ground Maintenance"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

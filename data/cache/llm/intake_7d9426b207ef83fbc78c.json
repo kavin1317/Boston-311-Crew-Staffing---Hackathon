@@ -1,0 +1,10 @@
+{
+  "request_type": "Park Improvement Requests",
+  "alternatives": [
+    "Capital Improvement Long Term",
+    "Parks General Request"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

@@ -1,0 +1,10 @@
+{
+  "request_type": "Tree Maintenance Requests",
+  "alternatives": [
+    "Tree in Park",
+    "Tree Emergencies"
+  ],
+  "confidence": "medium",
+  "needs_follow_up": true,
+  "follow_up_question": "Can you describe what specifically is wrong with the tree?"
+}

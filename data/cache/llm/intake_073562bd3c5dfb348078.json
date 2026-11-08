@@ -1,0 +1,10 @@
+{
+  "request_type": "Rodent Activity",
+  "alternatives": [
+    "Overflowing or Un-kept Dumpster",
+    "Pest Infestation - Residential"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

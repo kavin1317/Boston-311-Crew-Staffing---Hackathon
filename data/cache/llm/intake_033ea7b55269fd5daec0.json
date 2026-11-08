@@ -1,0 +1,10 @@
+{
+  "request_type": "Improper Storage of Trash (Barrels)",
+  "alternatives": [
+    "Unshoveled Sidewalk",
+    "Trash on Vacant Lot"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

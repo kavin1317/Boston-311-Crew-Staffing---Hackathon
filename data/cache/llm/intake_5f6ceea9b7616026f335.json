@@ -1,0 +1,10 @@
+{
+  "request_type": "Pick up Dead Animal",
+  "alternatives": [
+    "Illegal Dumping",
+    "Trash on Vacant Lot"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

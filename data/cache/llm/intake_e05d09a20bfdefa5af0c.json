@@ -1,0 +1,10 @@
+{
+  "request_type": "Abandoned Bicycle",
+  "alternatives": [
+    "Bicycle Issues",
+    "Abandoned Vehicles"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

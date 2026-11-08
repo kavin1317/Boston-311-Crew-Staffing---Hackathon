@@ -1,0 +1,10 @@
+{
+  "request_type": "Unsafe Dangerous Conditions",
+  "alternatives": [
+    "Traffic Signal Inspection",
+    "Roadway Repair"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

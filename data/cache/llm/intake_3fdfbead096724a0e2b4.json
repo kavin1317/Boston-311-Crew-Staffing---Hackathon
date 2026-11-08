@@ -1,0 +1,10 @@
+{
+  "request_type": "Work Hours-Loud Noise Complaints",
+  "alternatives": [
+    "Working Beyond Hours",
+    "Exceeding Terms of Permit"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

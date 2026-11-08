@@ -1,0 +1,10 @@
+{
+  "request_type": "Unshoveled Sidewalk",
+  "alternatives": [
+    "Request for Snow Plowing",
+    "Poor Conditions of Property"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

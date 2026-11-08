@@ -1,0 +1,10 @@
+{
+  "request_type": "Sign Repair",
+  "alternatives": [
+    "Traffic Signal Repair",
+    "Missing Sign"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}
