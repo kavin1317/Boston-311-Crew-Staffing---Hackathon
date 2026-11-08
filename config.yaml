@@ -43,3 +43,10 @@ llm:
   temperature: 0
   retrieval_top_k: 8
   cache_dir: data/cache/llm
+
+staffing_model:                       # Person C: simulator and planner settings
+  year_end_penalty_per_request: 120   # ASSUMPTION: charged per request piled up on Dec 31
+  year_end_allowed_days: 14           # ASSUMPTION: the last 14 days of arrivals may still be open on Dec 31
+  no_target_days: 365                 # ASSUMPTION: no target date -> 365-day target, so it counts as on time (as in the data)
+  target_buckets: [0, 1, 2, 3, 5, 7, 10, 14, 21, 30, 45, 60, 90, 180, 365]
+  on_time_targets: [0.70, 0.75, 0.80, 0.85, 0.90, 0.95]

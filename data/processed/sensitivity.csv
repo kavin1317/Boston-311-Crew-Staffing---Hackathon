@@ -1,0 +1,29 @@
+department,scenario,plan,on_time_pct,total_cost,avg_crews_feb_dec,crews_vs_base,open_dec_31,weeks_to_recover
+PWDx,base,base plan,96.4,6429277,48.0,0.0,4281,n/a
+PWDx,high,base plan kept,56.6,10374096,48.0,0.0,28678,n/a
+PWDx,high,re-optimized,96.3,7468133,56.4,8.4,5494,n/a
+PWDx,low,base plan kept,96.5,6408755,48.0,0.0,0,n/a
+PWDx,low,re-optimized,96.1,5601352,38.5,-9.5,3639,n/a
+PWDx,snowstorm,base plan kept,96.3,6489913,48.0,0.0,5065,not by Dec 31
+PWDx,snowstorm,re-optimized,96.4,6454326,48.2,0.2,4561,n/a
+BTDT,base,base plan,93.0,2772309,24.0,0.0,3,n/a
+BTDT,high,base plan kept,2.4,11040887,24.0,0.0,16864,n/a
+BTDT,high,re-optimized,86.1,3501685,29.1,5.1,4,n/a
+BTDT,low,base plan kept,94.8,2722269,24.0,0.0,0,n/a
+BTDT,low,re-optimized,93.6,2208342,19.2,-4.8,3,n/a
+BTDT,snowstorm,base plan kept,8.6,4271385,24.0,0.0,2535,not by Dec 31
+BTDT,snowstorm,re-optimized,93.0,3060976,25.4,1.4,3,n/a
+PARK,base,base plan,99.4,1672638,13.8,0.0,517,n/a
+PARK,high,base plan kept,99.3,2084423,13.8,0.0,4048,n/a
+PARK,high,re-optimized,99.4,1978113,16.3,2.5,662,n/a
+PARK,low,base plan kept,99.4,1671768,13.8,0.0,0,n/a
+PARK,low,re-optimized,99.4,1381768,11.5,-2.4,392,n/a
+PARK,heat_wave,base plan kept,99.4,1803355,13.8,0.0,1605,not by Dec 31
+PARK,heat_wave,re-optimized,99.4,1772395,14.5,0.7,597,n/a
+ISD,base,base plan,99.4,2533854,16.0,0.0,3046,n/a
+ISD,high,base plan kept,51.9,3475237,16.0,0.0,6846,n/a
+ISD,high,re-optimized,99.4,3061263,18.9,2.9,4158,n/a
+ISD,low,base plan kept,99.5,2241418,16.0,0.0,104,n/a
+ISD,low,re-optimized,99.5,2154061,14.0,-2.0,1317,n/a
+ISD,heat_wave,base plan kept,83.7,2669871,16.0,0.0,3751,not by Dec 31
+ISD,heat_wave,re-optimized,99.4,2636455,16.4,0.4,3415,n/a
