@@ -373,6 +373,72 @@ def main_demo(n: int = 5) -> None:
                           if k not in ("candidates", "candidate_scores")}, indent=2))
 
 
+# ------------------------------------------------------- Step 8: error analysis
+FIG_PATH = ROOT / "docs/figures/intake_confusion.png"
+ROWS = ["PWDx", "BTDT", "PARK", "ISD", "Unclear"]   # true department (unclear = no clear type)
+COLS = ["PWDx", "BTDT", "PARK", "ISD", "Follow-up"]  # predicted department, or asked a follow-up
+SHORT_NAMES = {"V1": "zero-shot", "V2": "+ 6 examples", "V3": "retrieval top-8 + examples"}
+BLUE_RAMP = ["#ffffff", "#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"]
+
+
+def confusion(res: pd.DataFrame, version: str) -> pd.DataFrame:
+    g = res[res.version == version]
+    true = np.where(g.is_ambiguous, "Unclear", g.true_department)
+    pred = np.where(g.needs_follow_up, "Follow-up", g.pred_department.fillna("Follow-up"))
+    m = pd.crosstab(pd.Series(true, name="true"), pd.Series(pred, name="pred"))
+    return m.reindex(index=ROWS, columns=COLS, fill_value=0)
+
+
+def plot_confusion(res: pd.DataFrame, path: Path = FIG_PATH) -> None:
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    from matplotlib.colors import LinearSegmentedColormap
+
+    cmap = LinearSegmentedColormap.from_list("blue", BLUE_RAMP)
+    mats = {v: confusion(res, v) for v in VERSIONS}
+    vmax = max(m.values.max() for m in mats.values())
+
+    fig, axes = plt.subplots(1, 3, figsize=(13, 4.6), sharey=True)
+    for ax, (v, m) in zip(axes, mats.items()):
+        ax.imshow(m.values, cmap=cmap, vmin=0, vmax=vmax)
+        for i in range(len(ROWS)):
+            for j in range(len(COLS)):
+                n = m.values[i, j]
+                if n:
+                    dark = n / vmax > 0.5
+                    ax.text(j, i, str(n), ha="center", va="center", fontsize=11,
+                            color="white" if dark else "#1f1f1f",
+                            fontweight="bold" if (ROWS[i] == COLS[j] or (ROWS[i], COLS[j]) == ("Unclear", "Follow-up")) else "normal")
+        ax.set_xticks(range(len(COLS)), COLS, fontsize=10)
+        ax.set_yticks(range(len(ROWS)), ROWS, fontsize=10)
+        ax.set_title(f"{v}: {SHORT_NAMES[v]}", fontsize=10, loc="left", color="#1f1f1f")
+        ax.set_xlabel("Predicted", fontsize=9, color="#5f5f5f")
+        for s in ax.spines.values():
+            s.set_visible(False)
+        ax.tick_params(length=0, colors="#3f3f3f")
+        # 2px white gap between cells
+        ax.set_xticks(np.arange(-.5, len(COLS)), minor=True)
+        ax.set_yticks(np.arange(-.5, len(ROWS)), minor=True)
+        ax.grid(which="minor", color="white", linewidth=2)
+        ax.tick_params(which="minor", length=0)
+    axes[0].set_ylabel("True department", fontsize=9, color="#5f5f5f")
+    fig.suptitle("Department routing on the 44-message test set (diagonal = correct; "
+                 "unclear messages should land in Follow-up)", fontsize=11, x=0.01, ha="left")
+    fig.tight_layout()
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(path, dpi=160, facecolor="white", bbox_inches="tight", pad_inches=0.15)
+    plt.close(fig)
+
+
+def main_errors() -> None:
+    res = pd.read_csv(EVAL_PATH)
+    plot_confusion(res)
+    print(f"Wrote {FIG_PATH.relative_to(ROOT)}")
+    for v in VERSIONS:
+        print(f"\n{v}\n{confusion(res, v).to_string()}")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
     if cmd == "retrieval":
@@ -381,5 +447,7 @@ if __name__ == "__main__":
         main_demo()
     elif cmd == "eval":
         main_eval()
+    elif cmd == "errors":
+        main_errors()
     else:
         print(__doc__)
