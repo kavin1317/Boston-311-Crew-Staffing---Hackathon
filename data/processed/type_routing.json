@@ -1707,6 +1707,22 @@
     }
   },
   {
+    "type": "Overflowing or Un-kept Dumpster",
+    "n_2024": 95,
+    "department": "PWDx",
+    "department_shares": {
+      "PWDx": 0.7474,
+      "ISD": 0.2526
+    },
+    "primary_queue": "PWDx_Code Enforcement",
+    "primary_queue_share": 0.7368,
+    "queue_shares": {
+      "PWDx_Code Enforcement": 0.7368,
+      "ISD_Environmental Services (INTERNAL)": 0.2526,
+      "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item": 0.0105
+    }
+  },
+  {
     "type": "Student Move-in Issues",
     "n_2024": 95,
     "department": "PWDx",
@@ -1727,22 +1743,6 @@
       "PWDx_District 10A: Roxbury": 0.0105,
       "PWDx_Sidewalk Repair": 0.0105,
       "PWDx_WM_Mattress_Pickup": 0.0105
-    }
-  },
-  {
-    "type": "Overflowing or Un-kept Dumpster",
-    "n_2024": 95,
-    "department": "PWDx",
-    "department_shares": {
-      "PWDx": 0.7474,
-      "ISD": 0.2526
-    },
-    "primary_queue": "PWDx_Code Enforcement",
-    "primary_queue_share": 0.7368,
-    "queue_shares": {
-      "PWDx_Code Enforcement": 0.7368,
-      "ISD_Environmental Services (INTERNAL)": 0.2526,
-      "PWDx_Missed Trash\\Recycling\\Yard Waste\\Bulk Item": 0.0105
     }
   },
   {
@@ -1795,23 +1795,6 @@
     }
   },
   {
-    "type": "Squalid Living Conditions",
-    "n_2024": 75,
-    "department": "ISD",
-    "department_shares": {
-      "ISD": 0.9733,
-      "PWDx": 0.0267
-    },
-    "primary_queue": "ISD_Housing (INTERNAL)",
-    "primary_queue_share": 0.9467,
-    "queue_shares": {
-      "ISD_Housing (INTERNAL)": 0.9467,
-      "PWDx_Code Enforcement": 0.0267,
-      "ISD_Administrative": 0.0133,
-      "ISD_Building (INTERNAL)": 0.0133
-    }
-  },
-  {
     "type": "Litter Basket Maintenance",
     "n_2024": 75,
     "department": "PWDx",
@@ -1828,6 +1811,23 @@
       "PWDx_District 03: North Dorchester": 0.0133,
       "PWDx_District 08: Hyde Park": 0.0133,
       "PWDx_District 09: East Boston": 0.0133
+    }
+  },
+  {
+    "type": "Squalid Living Conditions",
+    "n_2024": 75,
+    "department": "ISD",
+    "department_shares": {
+      "ISD": 0.9733,
+      "PWDx": 0.0267
+    },
+    "primary_queue": "ISD_Housing (INTERNAL)",
+    "primary_queue_share": 0.9467,
+    "queue_shares": {
+      "ISD_Housing (INTERNAL)": 0.9467,
+      "PWDx_Code Enforcement": 0.0267,
+      "ISD_Administrative": 0.0133,
+      "ISD_Building (INTERNAL)": 0.0133
     }
   },
   {
@@ -2063,20 +2063,6 @@
     }
   },
   {
-    "type": "Pole Compliance",
-    "n_2024": 30,
-    "department": "PWDx",
-    "department_shares": {
-      "PWDx": 1.0
-    },
-    "primary_queue": "PWDx_STRL Pole Compliance",
-    "primary_queue_share": 0.9667,
-    "queue_shares": {
-      "PWDx_STRL Pole Compliance": 0.9667,
-      "PWDx_Street Light Knock Downs": 0.0333
-    }
-  },
-  {
     "type": "Cemetery Maintenance Request",
     "n_2024": 30,
     "department": "PARK",
@@ -2088,6 +2074,20 @@
     "queue_shares": {
       "PARK_Cemetery Maintenance Request": 0.9667,
       "PARK_Maintenance_Region 1": 0.0333
+    }
+  },
+  {
+    "type": "Pole Compliance",
+    "n_2024": 30,
+    "department": "PWDx",
+    "department_shares": {
+      "PWDx": 1.0
+    },
+    "primary_queue": "PWDx_STRL Pole Compliance",
+    "primary_queue_share": 0.9667,
+    "queue_shares": {
+      "PWDx_STRL Pole Compliance": 0.9667,
+      "PWDx_Street Light Knock Downs": 0.0333
     }
   },
   {
@@ -2143,20 +2143,6 @@
     }
   },
   {
-    "type": "Rat Bite",
-    "n_2024": 23,
-    "department": "ISD",
-    "department_shares": {
-      "ISD": 1.0
-    },
-    "primary_queue": "ISD_Environmental Services (INTERNAL)",
-    "primary_queue_share": 0.9565,
-    "queue_shares": {
-      "ISD_Environmental Services (INTERNAL)": 0.9565,
-      "ISD_Housing (INTERNAL)": 0.0435
-    }
-  },
-  {
     "type": "Overcrowding",
     "n_2024": 23,
     "department": "ISD",
@@ -2168,6 +2154,20 @@
     "queue_shares": {
       "ISD_Housing (INTERNAL)": 0.8261,
       "ISD_Building (INTERNAL)": 0.1739
+    }
+  },
+  {
+    "type": "Rat Bite",
+    "n_2024": 23,
+    "department": "ISD",
+    "department_shares": {
+      "ISD": 1.0
+    },
+    "primary_queue": "ISD_Environmental Services (INTERNAL)",
+    "primary_queue_share": 0.9565,
+    "queue_shares": {
+      "ISD_Environmental Services (INTERNAL)": 0.9565,
+      "ISD_Housing (INTERNAL)": 0.0435
     }
   },
   {
@@ -2185,20 +2185,6 @@
     }
   },
   {
-    "type": "Poor Ventilation",
-    "n_2024": 20,
-    "department": "ISD",
-    "department_shares": {
-      "ISD": 1.0
-    },
-    "primary_queue": "ISD_Housing (INTERNAL)",
-    "primary_queue_share": 0.95,
-    "queue_shares": {
-      "ISD_Housing (INTERNAL)": 0.95,
-      "ISD_Building (INTERNAL)": 0.05
-    }
-  },
-  {
     "type": "Install New Lighting",
     "n_2024": 20,
     "department": "PWDx",
@@ -2213,16 +2199,17 @@
     }
   },
   {
-    "type": "Scanning Overcharge",
-    "n_2024": 15,
+    "type": "Poor Ventilation",
+    "n_2024": 20,
     "department": "ISD",
     "department_shares": {
       "ISD": 1.0
     },
-    "primary_queue": "ISD_Weights and Measures (INTERNAL)",
-    "primary_queue_share": 1.0,
+    "primary_queue": "ISD_Housing (INTERNAL)",
+    "primary_queue_share": 0.95,
     "queue_shares": {
-      "ISD_Weights and Measures (INTERNAL)": 1.0
+      "ISD_Housing (INTERNAL)": 0.95,
+      "ISD_Building (INTERNAL)": 0.05
     }
   },
   {
@@ -2257,21 +2244,21 @@
     }
   },
   {
-    "type": "No Utilities Residential - Gas",
-    "n_2024": 13,
+    "type": "Scanning Overcharge",
+    "n_2024": 15,
     "department": "ISD",
     "department_shares": {
       "ISD": 1.0
     },
-    "primary_queue": "ISD_Housing (INTERNAL)",
+    "primary_queue": "ISD_Weights and Measures (INTERNAL)",
     "primary_queue_share": 1.0,
     "queue_shares": {
-      "ISD_Housing (INTERNAL)": 1.0
+      "ISD_Weights and Measures (INTERNAL)": 1.0
     }
   },
   {
-    "type": "Rental Unit Delivery Conditions",
-    "n_2024": 12,
+    "type": "No Utilities Residential - Gas",
+    "n_2024": 13,
     "department": "ISD",
     "department_shares": {
       "ISD": 1.0
@@ -2316,6 +2303,41 @@
     }
   },
   {
+    "type": "Rental Unit Delivery Conditions",
+    "n_2024": 12,
+    "department": "ISD",
+    "department_shares": {
+      "ISD": 1.0
+    },
+    "primary_queue": "ISD_Housing (INTERNAL)",
+    "primary_queue_share": 1.0,
+    "queue_shares": {
+      "ISD_Housing (INTERNAL)": 1.0
+    }
+  },
+  {
+    "type": "Animal Generic Request",
+    "n_2024": 10,
+    "department": "PWDx",
+    "department_shares": {
+      "PWDx": 0.6,
+      "ISD": 0.2,
+      "PARK": 0.2
+    },
+    "primary_queue": "ISD_Environmental Services (INTERNAL)",
+    "primary_queue_share": 0.2,
+    "queue_shares": {
+      "ISD_Environmental Services (INTERNAL)": 0.2,
+      "PWDx_District 05: South Boston": 0.2,
+      "PARK_Maintenance_Ground Maintenance": 0.1,
+      "PARK_Maintenance_Region 2": 0.1,
+      "PWDx_Code Enforcement": 0.1,
+      "PWDx_District 07: South Dorchester": 0.1,
+      "PWDx_District 09: East Boston": 0.1,
+      "PWDx_Pick Up Dead Animals": 0.1
+    }
+  },
+  {
     "type": "Pigeon Infestation",
     "n_2024": 10,
     "department": "ISD",
@@ -2343,41 +2365,6 @@
       "PARK_Maintenance_Horticulture": 0.8,
       "PARK_Maintenance_Region 3": 0.1,
       "PARK_New Tree Requests": 0.1
-    }
-  },
-  {
-    "type": "Animal Generic Request",
-    "n_2024": 10,
-    "department": "PWDx",
-    "department_shares": {
-      "PWDx": 0.6,
-      "ISD": 0.2,
-      "PARK": 0.2
-    },
-    "primary_queue": "ISD_Environmental Services (INTERNAL)",
-    "primary_queue_share": 0.2,
-    "queue_shares": {
-      "ISD_Environmental Services (INTERNAL)": 0.2,
-      "PWDx_District 05: South Boston": 0.2,
-      "PARK_Maintenance_Ground Maintenance": 0.1,
-      "PARK_Maintenance_Region 2": 0.1,
-      "PWDx_Code Enforcement": 0.1,
-      "PWDx_District 07: South Dorchester": 0.1,
-      "PWDx_District 09: East Boston": 0.1,
-      "PWDx_Pick Up Dead Animals": 0.1
-    }
-  },
-  {
-    "type": "Occupying W/Out A Valid CO/CI",
-    "n_2024": 9,
-    "department": "ISD",
-    "department_shares": {
-      "ISD": 1.0
-    },
-    "primary_queue": "ISD_Building (INTERNAL)",
-    "primary_queue_share": 1.0,
-    "queue_shares": {
-      "ISD_Building (INTERNAL)": 1.0
     }
   },
   {
@@ -2416,53 +2403,16 @@
     }
   },
   {
-    "type": "Phone Bank Service Inquiry",
-    "n_2024": 8,
-    "department": "BTDT",
-    "department_shares": {
-      "BTDT": 1.0
-    },
-    "primary_queue": "BTDT_OPC_Phone Bank Service",
-    "primary_queue_share": 1.0,
-    "queue_shares": {
-      "BTDT_OPC_Phone Bank Service": 1.0
-    }
-  },
-  {
-    "type": "Mosquitoes (West Nile)",
-    "n_2024": 8,
+    "type": "Occupying W/Out A Valid CO/CI",
+    "n_2024": 9,
     "department": "ISD",
     "department_shares": {
-      "ISD": 0.875,
-      "PWDx": 0.125
+      "ISD": 1.0
     },
-    "primary_queue": "ISD_Environmental Services (INTERNAL)",
-    "primary_queue_share": 0.75,
+    "primary_queue": "ISD_Building (INTERNAL)",
+    "primary_queue_share": 1.0,
     "queue_shares": {
-      "ISD_Environmental Services (INTERNAL)": 0.75,
-      "ISD_Building (INTERNAL)": 0.125,
-      "PWDx_Code Enforcement": 0.125
-    }
-  },
-  {
-    "type": "Sidewalk Cover / Manhole",
-    "n_2024": 8,
-    "department": "PWDx",
-    "department_shares": {
-      "PWDx": 0.5,
-      "BTDT": 0.25,
-      "ISD": 0.125,
-      "PARK": 0.125
-    },
-    "primary_queue": "BTDT_Administration",
-    "primary_queue_share": 0.25,
-    "queue_shares": {
-      "BTDT_Administration": 0.25,
-      "PWDx_Street Light_General Lighting Request": 0.25,
-      "ISD_Administrative": 0.125,
-      "PARK_Maintenance_Region 4": 0.125,
-      "PWDx_Code Enforcement": 0.125,
-      "PWDx_Contractor Complaints": 0.125
+      "ISD_Building (INTERNAL)": 1.0
     }
   },
   {
@@ -2487,42 +2437,53 @@
     }
   },
   {
-    "type": "No Utilities - Food Establishment - Water",
-    "n_2024": 7,
+    "type": "Mosquitoes (West Nile)",
+    "n_2024": 8,
     "department": "ISD",
     "department_shares": {
-      "ISD": 1.0
+      "ISD": 0.875,
+      "PWDx": 0.125
     },
-    "primary_queue": "ISD_Health (INTERNAL)",
-    "primary_queue_share": 1.0,
+    "primary_queue": "ISD_Environmental Services (INTERNAL)",
+    "primary_queue_share": 0.75,
     "queue_shares": {
-      "ISD_Health (INTERNAL)": 1.0
+      "ISD_Environmental Services (INTERNAL)": 0.75,
+      "ISD_Building (INTERNAL)": 0.125,
+      "PWDx_Code Enforcement": 0.125
     }
   },
   {
-    "type": "Valet Parking Problems",
-    "n_2024": 7,
+    "type": "Phone Bank Service Inquiry",
+    "n_2024": 8,
     "department": "BTDT",
     "department_shares": {
       "BTDT": 1.0
     },
-    "primary_queue": "BTDT_Parking Lot_Valet Parking Problems",
+    "primary_queue": "BTDT_OPC_Phone Bank Service",
     "primary_queue_share": 1.0,
     "queue_shares": {
-      "BTDT_Parking Lot_Valet Parking Problems": 1.0
+      "BTDT_OPC_Phone Bank Service": 1.0
     }
   },
   {
-    "type": "Unit Pricing Wrong/Missing",
-    "n_2024": 7,
-    "department": "ISD",
+    "type": "Sidewalk Cover / Manhole",
+    "n_2024": 8,
+    "department": "PWDx",
     "department_shares": {
-      "ISD": 1.0
+      "PWDx": 0.5,
+      "BTDT": 0.25,
+      "ISD": 0.125,
+      "PARK": 0.125
     },
-    "primary_queue": "ISD_Weights and Measures (INTERNAL)",
-    "primary_queue_share": 1.0,
+    "primary_queue": "BTDT_Administration",
+    "primary_queue_share": 0.25,
     "queue_shares": {
-      "ISD_Weights and Measures (INTERNAL)": 1.0
+      "BTDT_Administration": 0.25,
+      "PWDx_Street Light_General Lighting Request": 0.25,
+      "ISD_Administrative": 0.125,
+      "PARK_Maintenance_Region 4": 0.125,
+      "PWDx_Code Enforcement": 0.125,
+      "PWDx_Contractor Complaints": 0.125
     }
   },
   {
@@ -2540,16 +2501,61 @@
     }
   },
   {
-    "type": "Pickup/Clear Conduit",
+    "type": "No Utilities - Food Establishment - Water",
+    "n_2024": 7,
+    "department": "ISD",
+    "department_shares": {
+      "ISD": 1.0
+    },
+    "primary_queue": "ISD_Health (INTERNAL)",
+    "primary_queue_share": 1.0,
+    "queue_shares": {
+      "ISD_Health (INTERNAL)": 1.0
+    }
+  },
+  {
+    "type": "Unit Pricing Wrong/Missing",
+    "n_2024": 7,
+    "department": "ISD",
+    "department_shares": {
+      "ISD": 1.0
+    },
+    "primary_queue": "ISD_Weights and Measures (INTERNAL)",
+    "primary_queue_share": 1.0,
+    "queue_shares": {
+      "ISD_Weights and Measures (INTERNAL)": 1.0
+    }
+  },
+  {
+    "type": "Valet Parking Problems",
+    "n_2024": 7,
+    "department": "BTDT",
+    "department_shares": {
+      "BTDT": 1.0
+    },
+    "primary_queue": "BTDT_Parking Lot_Valet Parking Problems",
+    "primary_queue_share": 1.0,
+    "queue_shares": {
+      "BTDT_Parking Lot_Valet Parking Problems": 1.0
+    }
+  },
+  {
+    "type": "BWSC General Request",
     "n_2024": 6,
     "department": "PWDx",
     "department_shares": {
-      "PWDx": 1.0
+      "PWDx": 0.6667,
+      "ISD": 0.1667,
+      "PARK": 0.1667
     },
-    "primary_queue": "PWDx_Street Light_Pickup_Clear Conduit",
-    "primary_queue_share": 1.0,
+    "primary_queue": "PWDx_Sidewalk Repair",
+    "primary_queue_share": 0.3333,
     "queue_shares": {
-      "PWDx_Street Light_Pickup_Clear Conduit": 1.0
+      "PWDx_Sidewalk Repair": 0.3333,
+      "ISD_Building (INTERNAL)": 0.1667,
+      "PARK_Maintenance_Trades": 0.1667,
+      "PWDx_Contractor Complaints": 0.1667,
+      "PWDx_Roadway Repair_Ponding": 0.1667
     }
   },
   {
@@ -2579,22 +2585,16 @@
     }
   },
   {
-    "type": "BWSC General Request",
+    "type": "Pickup/Clear Conduit",
     "n_2024": 6,
     "department": "PWDx",
     "department_shares": {
-      "PWDx": 0.6667,
-      "ISD": 0.1667,
-      "PARK": 0.1667
+      "PWDx": 1.0
     },
-    "primary_queue": "PWDx_Sidewalk Repair",
-    "primary_queue_share": 0.3333,
+    "primary_queue": "PWDx_Street Light_Pickup_Clear Conduit",
+    "primary_queue_share": 1.0,
     "queue_shares": {
-      "PWDx_Sidewalk Repair": 0.3333,
-      "ISD_Building (INTERNAL)": 0.1667,
-      "PARK_Maintenance_Trades": 0.1667,
-      "PWDx_Contractor Complaints": 0.1667,
-      "PWDx_Roadway Repair_Ponding": 0.1667
+      "PWDx_Street Light_Pickup_Clear Conduit": 1.0
     }
   },
   {
@@ -2611,19 +2611,6 @@
     }
   },
   {
-    "type": "Private Parking Lot Complaints",
-    "n_2024": 5,
-    "department": "BTDT",
-    "department_shares": {
-      "BTDT": 1.0
-    },
-    "primary_queue": "BTDT_Parking Lot_PrivateParkingLotComplaints",
-    "primary_queue_share": 1.0,
-    "queue_shares": {
-      "BTDT_Parking Lot_PrivateParkingLotComplaints": 1.0
-    }
-  },
-  {
     "type": "No Utilities - Food Establishment - Sewer",
     "n_2024": 5,
     "department": "ISD",
@@ -2635,6 +2622,19 @@
     "queue_shares": {
       "ISD_Health (INTERNAL)": 0.8,
       "ISD_Housing (INTERNAL)": 0.2
+    }
+  },
+  {
+    "type": "Private Parking Lot Complaints",
+    "n_2024": 5,
+    "department": "BTDT",
+    "department_shares": {
+      "BTDT": 1.0
+    },
+    "primary_queue": "BTDT_Parking Lot_PrivateParkingLotComplaints",
+    "primary_queue_share": 1.0,
+    "queue_shares": {
+      "BTDT_Parking Lot_PrivateParkingLotComplaints": 1.0
     }
   },
   {
@@ -2691,16 +2691,16 @@
     }
   },
   {
-    "type": "Short Measure - Gas",
+    "type": "Capital Improvement Long Term",
     "n_2024": 2,
-    "department": "ISD",
+    "department": "PARK",
     "department_shares": {
-      "ISD": 1.0
+      "PARK": 1.0
     },
-    "primary_queue": "ISD_Weights and Measures (INTERNAL)",
+    "primary_queue": "PARK_Park Improvement Requests",
     "primary_queue_share": 1.0,
     "queue_shares": {
-      "ISD_Weights and Measures (INTERNAL)": 1.0
+      "PARK_Park Improvement Requests": 1.0
     }
   },
   {
@@ -2743,19 +2743,6 @@
     }
   },
   {
-    "type": "Walk-In Service Inquiry",
-    "n_2024": 2,
-    "department": "BTDT",
-    "department_shares": {
-      "BTDT": 1.0
-    },
-    "primary_queue": "BTDT_OPC_Walk-In Service",
-    "primary_queue_share": 1.0,
-    "queue_shares": {
-      "BTDT_OPC_Walk-In Service": 1.0
-    }
-  },
-  {
     "type": "Scale Not Visible",
     "n_2024": 2,
     "department": "ISD",
@@ -2769,16 +2756,29 @@
     }
   },
   {
-    "type": "Capital Improvement Long Term",
+    "type": "Short Measure - Gas",
     "n_2024": 2,
-    "department": "PARK",
+    "department": "ISD",
     "department_shares": {
-      "PARK": 1.0
+      "ISD": 1.0
     },
-    "primary_queue": "PARK_Park Improvement Requests",
+    "primary_queue": "ISD_Weights and Measures (INTERNAL)",
     "primary_queue_share": 1.0,
     "queue_shares": {
-      "PARK_Park Improvement Requests": 1.0
+      "ISD_Weights and Measures (INTERNAL)": 1.0
+    }
+  },
+  {
+    "type": "Walk-In Service Inquiry",
+    "n_2024": 2,
+    "department": "BTDT",
+    "department_shares": {
+      "BTDT": 1.0
+    },
+    "primary_queue": "BTDT_OPC_Walk-In Service",
+    "primary_queue_share": 1.0,
+    "queue_shares": {
+      "BTDT_OPC_Walk-In Service": 1.0
     }
   },
   {
@@ -2795,16 +2795,16 @@
     }
   },
   {
-    "type": "Snow/Ice Control",
+    "type": "Follow-Up",
     "n_2024": 1,
-    "department": "PWDx",
+    "department": "ISD",
     "department_shares": {
-      "PWDx": 1.0
+      "ISD": 1.0
     },
-    "primary_queue": "PWDx_District 03: North Dorchester",
+    "primary_queue": "ISD_Administrative",
     "primary_queue_share": 1.0,
     "queue_shares": {
-      "PWDx_District 03: North Dorchester": 1.0
+      "ISD_Administrative": 1.0
     }
   },
   {
@@ -2821,16 +2821,16 @@
     }
   },
   {
-    "type": "Water in Gas - High Priority",
+    "type": "Snow/Ice Control",
     "n_2024": 1,
-    "department": "ISD",
+    "department": "PWDx",
     "department_shares": {
-      "ISD": 1.0
+      "PWDx": 1.0
     },
-    "primary_queue": "ISD_Weights and Measures (INTERNAL)",
+    "primary_queue": "PWDx_District 03: North Dorchester",
     "primary_queue_share": 1.0,
     "queue_shares": {
-      "ISD_Weights and Measures (INTERNAL)": 1.0
+      "PWDx_District 03: North Dorchester": 1.0
     }
   },
   {
@@ -2847,16 +2847,16 @@
     }
   },
   {
-    "type": "Follow-Up",
+    "type": "Water in Gas - High Priority",
     "n_2024": 1,
     "department": "ISD",
     "department_shares": {
       "ISD": 1.0
     },
-    "primary_queue": "ISD_Administrative",
+    "primary_queue": "ISD_Weights and Measures (INTERNAL)",
     "primary_queue_share": 1.0,
     "queue_shares": {
-      "ISD_Administrative": 1.0
+      "ISD_Weights and Measures (INTERNAL)": 1.0
     }
   }
 ]
