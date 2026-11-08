@@ -1,0 +1,10 @@
+{
+  "request_type": "Transportation General Request",
+  "alternatives": [
+    "Protection of Adjoining Property",
+    "Building Inspection Request"
+  ],
+  "confidence": "low",
+  "needs_follow_up": true,
+  "follow_up_question": "What specific problem are you experiencing on your street?"
+}
