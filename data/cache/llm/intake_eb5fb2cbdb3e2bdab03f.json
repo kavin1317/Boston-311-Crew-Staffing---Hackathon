@@ -1,0 +1,10 @@
+{
+  "request_type": "Public Works General Request",
+  "alternatives": [
+    "Street Light Outages",
+    "Traffic Signal Inspection"
+  ],
+  "confidence": "low",
+  "needs_follow_up": true,
+  "follow_up_question": "What specific problem are you experiencing on your street?"
+}

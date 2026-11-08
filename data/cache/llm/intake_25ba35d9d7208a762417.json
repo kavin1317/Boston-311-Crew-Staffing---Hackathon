@@ -1,0 +1,10 @@
+{
+  "request_type": "Unsafe Dangerous Conditions",
+  "alternatives": [
+    "Traffic Signal Inspection",
+    "General Traffic Engineering Request"
+  ],
+  "confidence": "medium",
+  "needs_follow_up": true,
+  "follow_up_question": "Can you describe what makes the corner dangerous?"
+}

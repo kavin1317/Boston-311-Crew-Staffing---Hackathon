@@ -1,0 +1,10 @@
+{
+  "request_type": "Roadway Repair",
+  "alternatives": [
+    "Public Works General Request",
+    "Utility Casting Repair"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

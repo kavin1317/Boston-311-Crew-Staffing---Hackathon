@@ -1,0 +1,10 @@
+{
+  "request_type": "Ground Maintenance",
+  "alternatives": [
+    "Requests for Street Cleaning",
+    "Trash on Vacant Lot"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

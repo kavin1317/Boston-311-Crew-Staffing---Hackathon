@@ -1,0 +1,10 @@
+{
+  "request_type": "Chronic Dampness/Mold",
+  "alternatives": [
+    "Poor Ventilation",
+    "Unsanitary Conditions - Residential"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

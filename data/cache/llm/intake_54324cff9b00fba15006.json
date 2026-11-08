@@ -1,0 +1,10 @@
+{
+  "request_type": "Sidewalk Repair (Make Safe)",
+  "alternatives": [
+    "Sidewalk Repair",
+    "Tree Emergencies"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

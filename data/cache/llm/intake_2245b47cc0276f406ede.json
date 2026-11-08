@@ -1,0 +1,10 @@
+{
+  "request_type": "Request for Snow Plowing",
+  "alternatives": [
+    "Misc. Snow Complaint",
+    "Request for Snow Plowing (Emergency Responder)"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

@@ -1,0 +1,10 @@
+{
+  "request_type": "Sidewalk Repair",
+  "alternatives": [
+    "Tree Maintenance Requests",
+    "Unsafe Dangerous Conditions"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

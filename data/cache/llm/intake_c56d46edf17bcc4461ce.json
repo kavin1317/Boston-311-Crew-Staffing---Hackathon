@@ -1,0 +1,10 @@
+{
+  "request_type": "Parks General Request",
+  "alternatives": [
+    "Ground Maintenance",
+    "Tree Maintenance Requests"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

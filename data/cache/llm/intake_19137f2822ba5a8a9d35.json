@@ -1,0 +1,10 @@
+{
+  "request_type": "Equipment Repair",
+  "alternatives": [
+    "Ground Maintenance",
+    "Parks General Request"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

@@ -1,0 +1,10 @@
+{
+  "request_type": "Work w/out Permit",
+  "alternatives": [
+    "Contractor Complaints",
+    "Unsafe Dangerous Conditions"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

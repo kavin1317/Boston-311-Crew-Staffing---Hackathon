@@ -1,0 +1,10 @@
+{
+  "request_type": "New Sign  Crosswalk or Pavement Marking",
+  "alternatives": [
+    "Requests for Traffic Signal Studies or Reviews",
+    "General Traffic Engineering Request"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

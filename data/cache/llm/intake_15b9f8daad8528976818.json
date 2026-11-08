@@ -1,0 +1,10 @@
+{
+  "request_type": "Unsatisfactory Living Conditions",
+  "alternatives": [
+    "Poor Conditions of Property",
+    "Maintenance Complaint - Residential"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

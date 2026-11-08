@@ -1,0 +1,10 @@
+{
+  "request_type": "Valet Parking Problems",
+  "alternatives": [
+    "Parking Enforcement",
+    "Private Parking Lot Complaints"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

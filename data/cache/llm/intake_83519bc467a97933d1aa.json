@@ -1,0 +1,10 @@
+{
+  "request_type": "Abandoned Vehicles",
+  "alternatives": [
+    "Parking Enforcement",
+    "Illegal Parking"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

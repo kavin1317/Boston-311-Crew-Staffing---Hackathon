@@ -1,0 +1,10 @@
+{
+  "request_type": "Missing Sign",
+  "alternatives": [
+    "Parking Enforcement",
+    "Sign Repair"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

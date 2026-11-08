@@ -1,0 +1,10 @@
+{
+  "request_type": "Maintenance Complaint - Residential",
+  "alternatives": [
+    "Unsatisfactory Living Conditions",
+    "Maintenance - Homeowner"
+  ],
+  "confidence": "medium",
+  "needs_follow_up": true,
+  "follow_up_question": "What specific issues are you experiencing in your apartment?"
+}

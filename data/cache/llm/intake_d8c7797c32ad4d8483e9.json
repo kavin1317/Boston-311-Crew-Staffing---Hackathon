@@ -1,0 +1,10 @@
+{
+  "request_type": "Request for Pothole Repair",
+  "alternatives": [
+    "Street Light Outages",
+    "General Lighting Request"
+  ],
+  "confidence": "medium",
+  "needs_follow_up": true,
+  "follow_up_question": "Could you please confirm if the streetlight is completely out or just flickering?"
+}

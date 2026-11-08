@@ -1,0 +1,10 @@
+{
+  "request_type": "Unshoveled Sidewalk",
+  "alternatives": [
+    "Misc. Snow Complaint",
+    "Snow/Ice Control"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

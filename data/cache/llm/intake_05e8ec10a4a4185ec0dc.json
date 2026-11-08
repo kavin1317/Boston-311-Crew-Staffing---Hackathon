@@ -1,0 +1,10 @@
+{
+  "request_type": "Street Light Outages",
+  "alternatives": [
+    "StreetLight Pole WO",
+    "Major System Failure"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

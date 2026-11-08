@@ -1,0 +1,10 @@
+{
+  "request_type": "Improper Storage of Trash (Barrels)",
+  "alternatives": [
+    "CE Collection",
+    "Parking Enforcement"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}

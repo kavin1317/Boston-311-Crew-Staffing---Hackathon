@@ -1,0 +1,10 @@
+{
+  "request_type": "Unsanitary Conditions - Establishment",
+  "alternatives": [
+    "Unsanitary Conditions - Food",
+    "Poor Conditions of Property"
+  ],
+  "confidence": "high",
+  "needs_follow_up": false,
+  "follow_up_question": null
+}
