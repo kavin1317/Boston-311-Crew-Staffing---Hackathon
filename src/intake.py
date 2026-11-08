@@ -390,16 +390,15 @@ def confusion(res: pd.DataFrame, version: str) -> pd.DataFrame:
 
 
 def plot_confusion(res: pd.DataFrame, path: Path = FIG_PATH) -> None:
-    import matplotlib
-    matplotlib.use("Agg")
-    import matplotlib.pyplot as plt
     from matplotlib.colors import LinearSegmentedColormap
+    from matplotlib.figure import Figure  # no pyplot: leaves the caller's backend alone
 
     cmap = LinearSegmentedColormap.from_list("blue", BLUE_RAMP)
     mats = {v: confusion(res, v) for v in VERSIONS}
     vmax = max(m.values.max() for m in mats.values())
 
-    fig, axes = plt.subplots(1, 3, figsize=(13, 4.6), sharey=True)
+    fig = Figure(figsize=(13, 4.6))
+    axes = fig.subplots(1, 3, sharey=True)
     for ax, (v, m) in zip(axes, mats.items()):
         ax.imshow(m.values, cmap=cmap, vmin=0, vmax=vmax)
         for i in range(len(ROWS)):
@@ -428,7 +427,6 @@ def plot_confusion(res: pd.DataFrame, path: Path = FIG_PATH) -> None:
     fig.tight_layout()
     path.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(path, dpi=160, facecolor="white", bbox_inches="tight", pad_inches=0.15)
-    plt.close(fig)
 
 
 def main_errors() -> None:
