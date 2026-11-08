@@ -20,7 +20,7 @@ build a GenAI intake assistant that routes residents' 311 requests to the right 
 | # | Deliverable | Where |
 |---|---|---|
 | 1 | GenAI app (API calls, prompt engineering, structured output, RAG) | `app/app.py`, `src/intake.py` |
-| 2 | Month-by-month 2025 staffing plan for 4 departments | `data/processed/staffing_plan_2025.csv` *(TODO: Person C)* |
+| 2 | Month-by-month 2025 staffing plan for 4 departments | `data/processed/staffing_plan_2025.csv` (all five scenarios) |
 | 3 | Analysis report: decisions, assumptions, sensitivity | *(TODO: link)* |
 | 4 | This repo: code, setup, architecture, contributions | here |
 | 5 | Jupyter notebook, all cells run with outputs | `notebooks/main.ipynb` |
@@ -79,6 +79,9 @@ Put the two course data files in `data/raw/` (they are not in the repo):
 | Compare prompt versions V1/V2/V3 | `python -m src.intake eval` |
 | Confusion-matrix chart | `python -m src.intake errors` |
 | Notebook | `jupyter notebook notebooks/main.ipynb` |
+| 2024 check: simulated vs actual on-time (Person C) | `python -m src.planner calibrate` |
+| 2025 staffing plan, all scenarios (Person C) | `python -m src.planner` |
+| Sensitivity and cost-vs-service curve (Person C) | `python -m src.sensitivity` |
 | App | `streamlit run app/app.py` |
 
 The app's staffing tab reads `data/processed/staffing_plan_2025.csv`. Until that file exists it
@@ -113,9 +116,39 @@ Retrieval puts the true type in the top 8 for **100%** of clear messages (top 1:
 
 See `notebooks/main.ipynb`, Section 2, and `docs/figures/forecast_2025.png`. *(TODO: Person A — key numbers.)*
 
-### Staffing plan and sensitivity
+### Staffing plan and sensitivity **[AI-drafted]**
 
-*(TODO: Person C — crews by month, cost, on-time %, and the base / ±20% / snowstorm / heat-wave scenarios.)*
+Base plan, active crews (January is fixed at the starting crews):
+
+| Department | January | Plan | Hires / releases | On time, 2025 |
+|-|-|-|-|-|
+| Public Works | 50 | 48 from February | 0 / 2 | 96% |
+| Transportation | 18 | 22 in February, rising to 25 by September | 7 / 0 | 93% |
+| Parks and Recreation | 10 | 12 in April, 15 from May | 5 / 0 | 99% |
+| Inspectional Services | 16 | 16 all year | 0 / 0 | 99% |
+
+Cost of the base plan in 2025 (crews and fines): about $13.1M.
+
+- **Understaffing is the expensive choice.** Keeping Transportation at 18 crews would cost about
+  $10.2M, mostly fines, at 7% on time; the plan costs about $2.8M at 93%.
+- **2024 check.** With January 2025 crews, the simulator gives 96 / 17 / 99 / 99.5% on time for
+  PWDx / BTDT / PARK / ISD against 90 / 50 / 93 / 72% in 2024: optimistic for three departments,
+  pessimistic for Transportation, where about 20% of 2024 requests were never closed. We keep the
+  brief's capacities, so the plan is the minimum staffing at the brief's crew capacity.
+- **The plan is lean.** With 20% more demand and no change to the plan, Transportation falls to 2%
+  on time, Public Works to 57% and Inspectional Services to 52%. After the snowstorm, Transportation
+  falls to 9% and its backlog is not cleared by December 31. Planned in advance, the storm needs
+  only about 1.4 more Transportation crews on average ($3.1M instead of $4.3M), so we recommend
+  one or two extra Transportation crews going into winter.
+- **Transportation cannot reach 95% on time at any cost** (best about 94%): crews work weekdays
+  only and many of its requests are due the next day.
+- **Parks keeps full-time crews rather than seasonal ones**: most Parks requests have year-long
+  targets, so work keeps arriving after October. This depends on our year-end charge.
+
+Details: notebook Sections 4 and 5, `data/processed/sensitivity.csv`,
+`data/processed/cost_curve_targets.csv`.
+
+![Cost vs on-time by department](docs/figures/cost_vs_service.png)
 
 ## Assumptions
 
@@ -123,11 +156,20 @@ Request data is real; capacities, costs and starting crews are the brief's assum
 `config.yaml`.
 
 - Every request counts (no filtering by closure reason).
-- On-time rule: a request not closed in the month it opens is overdue ($20); still open a month
-  later is 30+ days past target (extra $100).
+- Staffing simulator: each month's forecast is spread evenly over its days. Crews work on
+  weekdays only (a month's capacity = crews x capacity per crew per day x 21, spread over its
+  weekdays) and close the requests with the earliest target first. A request still open after
+  its target costs $20; still open 30 days after its target, an extra $100. Days to target come
+  from 2024 data for each department (`data/processed/target_profile.csv`).
+- *Our choice:* requests left piled up on December 31 (beyond the last 14 days of arrivals, or
+  already late) cost $120 each, so a plan cannot save money by letting work pile up after the
+  year ends.
+- *Our choice:* the snowstorm (+50% for February, PWDx and BTDT) is an assumed severe storm,
+  because 2023 and 2024 winters were mild (worst month +7%, worst week +33%). The heat wave
+  (+40% for July, PARK and ISD) matches the worst 2023-24 summer week, applied to a whole month.
 - *Brief is silent, our choice:* crews are paid during training and during notice months;
   seasonal Parks crews (April–October) start working in the month they are added; requests
-  with no target date count as on time (as in the data). Seasonal crew capacity: *(TODO: Person C)*.
+  with no target date count as on time (as in the data). Seasonal crews close as many requests a day as a full-time Parks crew (6).
 - Intake: request types come from 2024 data for the four departments (158 types). Each type's
   department and queue are its most common ones in 2024. Many queues are district queues that
   depend on the address, which a message often does not give, so queue accuracy is lower than
@@ -139,7 +181,7 @@ Request data is real; capacities, costs and starting crews are the brief's assum
 |---|---|---|
 | Jogeashwini (A) | Data & forecasting | `src/data.py`, `src/forecast.py`, `src/equity.py`, `notebooks/main.ipynb`, first version of the type catalog |
 | Kavin (B) | Intake assistant & app | `src/catalog.py` (routing + catalog revision), `src/intake.py` (retrieval, structured output, prompt versions, evaluation, error analysis), test set, `app/` |
-| Chitra (C) | Staffing model | `src/simulator.py`, `src/planner.py`, sensitivity *(TODO)* |
+| Chitra (C) | Staffing model | `src/simulator.py`, `src/planner.py`, `src/sensitivity.py`, 2025 staffing plan and sensitivity results, notebook Sections 4 and 5 |
 
 Commit history shows each member's work.
 

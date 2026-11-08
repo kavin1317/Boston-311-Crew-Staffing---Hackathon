@@ -34,8 +34,8 @@ scenarios:
   base:       {demand_multiplier: 1.0}
   high:       {demand_multiplier: 1.2}
   low:        {demand_multiplier: 0.8}
-  snowstorm:  {spike: {departments: [PWDx, BTDT], month: 2, multiplier: 1.5}}  # PLACEHOLDER - C sizes from worst 2023-24 winter month
-  heat_wave:  {spike: {departments: [PARK, ISD],  month: 7, multiplier: 1.4}}  # PLACEHOLDER - C sizes from worst 2023-24 summer month
+  snowstorm:  {spike: {departments: [PWDx, BTDT], month: 2, multiplier: 1.5}}  # ASSUMED severe storm: 2023-24 winters were mild (worst month +7%, worst week +33%)
+  heat_wave:  {spike: {departments: [PARK, ISD],  month: 7, multiplier: 1.4}}  # matches the worst 2023-24 summer week (+40%, ISD, June 2023), applied to the whole month
 
 llm:
   model: gpt-4o-mini

@@ -32,6 +32,43 @@ FIGURE = ROOT / "docs" / "figures" / "cost_vs_service.png"
 DEPT_NAMES = {k: v["name"] for k, v in config["departments"].items()}
 
 
+def spike_evidence():
+    """How big were the worst winter and summer jumps in 2023 and 2024?
+
+    Used to size the snowstorm and heat_wave scenarios in config.yaml.
+    month: a month's requests divided by the average of that calendar month
+           over both years.
+    week : a week's requests divided by the median of the 9 weeks around it.
+    """
+    df = pd.read_parquet(PROCESSED / "requests_clean.parquet",
+                         columns=["opened", "department", "year"])
+    df = df[df.year.isin([2023, 2024])]
+    seasons = {"winter": (["PWDx", "BTDT"], [12, 1, 2]),
+               "summer": (["PARK", "ISD"], [6, 7, 8])}
+
+    monthly = pd.read_csv(PROCESSED / "monthly_demand.csv")
+    monthly["ratio"] = monthly.requests / monthly.groupby(
+        ["department", "month"]).requests.transform("mean")
+
+    weekly = (df.groupby(["department", pd.Grouper(key="opened", freq="W-SUN")])
+                .size().rename("requests").reset_index())
+    weekly["ratio"] = weekly.requests / weekly.groupby("department").requests.transform(
+        lambda s: s.rolling(9, center=True, min_periods=5).median())
+
+    rows = []
+    for season, (depts, months) in seasons.items():
+        m = monthly[monthly.department.isin(depts) & monthly.month.isin(months)]
+        top_m = m.loc[m.ratio.idxmax()]
+        w = weekly[weekly.department.isin(depts) & weekly.opened.dt.month.isin(months)]
+        top_w = w.loc[w.ratio.idxmax()]
+        rows.append({"season": season,
+                     "worst_month": f"{top_m.department} {int(top_m.year)}-{int(top_m.month):02d}",
+                     "month_jump_pct": round(100 * (top_m.ratio - 1)),
+                     "worst_week": f"{top_w.department} week ending {top_w.opened:%Y-%m-%d}",
+                     "week_jump_pct": round(100 * (top_w.ratio - 1))})
+    return pd.DataFrame(rows)
+
+
 def plan_from_table(plans, scenario, dept):
     t = plans[(plans.scenario == scenario) & (plans.department == dept)].sort_values("month")
     return {"department": dept, "crews": t.active_crews.tolist(),
@@ -147,6 +184,10 @@ if __name__ == "__main__":
     plans = pd.read_csv(PLAN_FILE)
     profile = load_target_profile()
     forecast = pd.read_csv(FORECAST_FILE)
+
+    print("Worst winter and summer jumps in 2023 and 2024:\n")
+    print(spike_evidence().to_string(index=False))
+    print()
 
     table = scenario_table(plans, profile, forecast)
     table.to_csv(SENSITIVITY_FILE, index=False)
