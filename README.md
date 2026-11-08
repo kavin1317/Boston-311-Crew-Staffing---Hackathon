@@ -181,7 +181,7 @@ Request data is real; capacities, costs and starting crews are the brief's assum
 |---|---|---|
 | Jogeashwini (A) | Data & forecasting | `src/data.py`, `src/forecast.py`, `src/equity.py`, `notebooks/main.ipynb`, first version of the type catalog |
 | Kavin (B) | Intake assistant & app | `src/catalog.py` (routing + catalog revision), `src/intake.py` (retrieval, structured output, prompt versions, evaluation, error analysis), test set, `app/` |
-| Chitra (C) | Staffing model | `src/simulator.py`, `src/planner.py`, `src/sensitivity.py`, 2025 staffing plan and sensitivity results, notebook Sections 4 and 5 |
+| Chitra (C) | Staffing model and sensitivity | `src/simulator.py` (day-by-day simulator), `src/planner.py` (local-search planner, 2025 plan for all five scenarios, 2024 check), `src/sensitivity.py` (±20%, snowstorm and heat-wave runs, storm and heat-wave sizing from 2023-24 data, cost-vs-service curve), `staffing_plan_2025.csv` behind the app's staffing tab, notebook Sections 4 and 5, README staffing results and assumptions |
 
 Commit history shows each member's work.
 
