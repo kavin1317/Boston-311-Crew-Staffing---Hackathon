@@ -188,9 +188,9 @@ of them are in `config.yaml`.
 
 | Member | Role | Main work |
 |---|---|---|
-| Jogeashwini (A) | Data and forecasting | `src/data.py`, `src/forecast.py`, `src/equity.py`, the notebook, the first version of the type catalog |
-| Kavin (B) | Intake assistant and app | `src/catalog.py`, `src/intake.py` (retrieval, structured output, prompt versions, evaluation, error analysis), the test set, `app/` |
-| Chitra (C) | Staffing model | `src/simulator.py`, `src/planner.py`, `src/sensitivity.py`, the 2025 plan behind the app's staffing tab, notebook Sections 4 and 5 |
+| Jogeashwini Srinivasan Ramesh (A) | Data and forecasting | `src/data.py`, `src/forecast.py`, `src/equity.py`, the notebook, the first version of the type catalog |
+| Kavin Priyadarrsan Murugesan (B) | Intake assistant and app | `src/catalog.py`, `src/intake.py` (retrieval, structured output, prompt versions, evaluation, error analysis), the test set, `app/` |
+| Chitra Pahuja (C) | Staffing model | `src/simulator.py`, `src/planner.py`, `src/sensitivity.py`, the 2025 plan behind the app's staffing tab, notebook Sections 4 and 5 |
 
 The commit history shows who did what.
 
