@@ -16,7 +16,7 @@ and Inspectional Services (ISD).
 |---|---|
 | GenAI app (API calls, prompt engineering, structured output, RAG) | `app/app.py`, `src/intake.py` |
 | Month-by-month 2025 staffing plan | `data/processed/staffing_plan_2025.csv` (all five scenarios) |
-| Analysis report | *(TODO: link)* |
+| Analysis report | [`docs/Boston-311-Crew-Staffing-Analysis-Report-Team-2.pdf`](docs/Boston-311-Crew-Staffing-Analysis-Report-Team-2.pdf) |
 | Notebook with every cell run | `notebooks/main.ipynb` |
 | 3-minute demo video | *(TODO: link, check it opens while logged out)* |
 | AI-use disclosure | [AI use](#ai-use) below and `docs/ai_use_log.md` |
