@@ -18,7 +18,7 @@ and Inspectional Services (ISD).
 | Month-by-month 2025 staffing plan | `data/processed/staffing_plan_2025.csv` (all five scenarios) |
 | Analysis report | [`docs/Boston-311-Crew-Staffing-Analysis-Report-Team-2.pdf`](docs/Boston-311-Crew-Staffing-Analysis-Report-Team-2.pdf) |
 | Notebook with every cell run | `notebooks/main.ipynb` |
-| 3-minute demo video | *(TODO: link, check it opens while logged out)* |
+| 3-minute demo video | [Google Drive folder](https://drive.google.com/drive/folders/1h13sq1WI7I9m-amGq9di-ygMjh4TLS5r) |
 | AI-use disclosure | [AI use](#ai-use) below and `docs/ai_use_log.md` |
 
 ## How it fits together
